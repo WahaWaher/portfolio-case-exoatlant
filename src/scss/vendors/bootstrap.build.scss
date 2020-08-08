@@ -1,0 +1,90 @@
+/*!
+ * Bootstrap v4 Grid and Utilities (custom build) (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+@import '../settings';
+
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/mixins';
+
+// Removing from maps:
+// $spacers: map-remove($spacers, 0, 1, 2, 3, 4, 5);
+
+// Grid: full
+// @import 'bootstrap/scss/bootstrap-grid';
+
+// Grid: parts
+@import 'bootstrap/scss/grid';
+@import 'bootstrap/scss/utilities/display';
+@import 'bootstrap/scss/utilities/flex';
+@import 'bootstrap/scss/utilities/spacing';
+// @import 'bootstrap/scss/utilities/sizing';
+// @import '../../../node_modules/bootstrap/scss/utilities/text';
+
+/**
+ * Fluid Grid
+ */
+// .container {
+//   max-width: 2500px !important;
+//   width: 89.5%;
+//   @include media-breakpoint-down(xxl) {
+    
+//   }
+//   @include media-breakpoint-down(xl) {
+//     width: 95.5%;
+//   }
+//   @include media-breakpoint-down(lg) {}
+//   @include media-breakpoint-down(md) {
+//     width: 93.8%;
+//   }
+//   @include media-breakpoint-down(sm) {}
+//   @include media-breakpoint-down(xs) {
+//     width: 90.6%;
+//   }
+// }
+
+// Responsive alignment
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    .text#{$infix}-left {
+      text-align: left !important;
+    }
+    .text#{$infix}-right {
+      text-align: right !important;
+    }
+    .text#{$infix}-center {
+      text-align: center !important;
+    }
+  }
+}
+
+// Weight and italics
+.font-weight-light {
+  font-weight: $font-weight-light !important;
+}
+// .font-weight-lighter {
+//   font-weight: $font-weight-lighter !important;
+// }
+.font-weight-normal {
+  font-weight: $font-weight-normal !important;
+}
+.font-weight-bold {
+  font-weight: $font-weight-bold !important;
+}
+// .font-weight-bolder {
+//   font-weight: $font-weight-bolder !important;
+// }
+.font-italic {
+  font-style: italic !important;
+}
+
+// Misc
+.text-decoration-none {
+  text-decoration: none !important;
+}

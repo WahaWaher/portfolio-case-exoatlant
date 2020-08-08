@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 161 161">
+    <style>
+        .a{fill:#6b6b6a}
+    </style>
+    <switch transform="translate(-257.7,-189)">
+        <g>
+            <g>
+                <rect height="161" width="0.6" class="a" y="189" x="278.5"/>
+                <rect height="161" width="0.69" class="a" y="189" x="302.2"/>
+                <rect height="161" width="0.69" class="a" y="189" x="326"/>
+                <rect height="161" width="0.69" class="a" y="189" x="349.7"/>
+                <rect height="161" width="0.69" class="a" y="189" x="373.5"/>
+                <rect height="161" width="0.69" class="a" y="189" x="397.2"/>
+            </g>
+            <g>
+                <rect height="0.69" width="161" class="a" y="209.8" x="257.7"/>
+                <rect height="0.69" width="161" class="a" y="233.5" x="257.7"/>
+                <rect height="0.69" width="161" class="a" y="257.3" x="257.7"/>
+                <rect height="0.69" width="161" class="a" y="281" x="257.7"/>
+                <rect height="0.69" width="161" class="a" y="304.7" x="257.7"/>
+                <rect height="0.69" width="161" class="a" y="328.5" x="257.7"/>
+            </g>
+        </g>
+    </switch>
+</svg>

@@ -1,0 +1,72 @@
+/**
+ * App fonts
+ */
+
+@import '../settings';
+@import '../utils/_mixins';
+
+// font-weight-doc: https://developer.mozilla.org/ru/docs/Web/CSS/font-weight
+
+/**
+ * Heading Pro Wide Trial
+ */
+
+// 100, Thin (Hairline)
+@include font-face('Heading Pro Wide Trial', '../fonts/HeadingProWideTrial-Book/HeadingProWideTrial-Book', 100, normal);
+@include font-face('Heading Pro Wide Trial', '../fonts/HeadingProWideTrial-BookItalic/HeadingProWideTrial-BookItalic', 100, italic);
+
+// 200, ExtraLight (UltraLight)
+// @include font-face('Heading Pro Wide Trial', '../fonts/HeadingProWideTrial-ExtraLight/HeadingProWideTrial-ExtraLight', 200, normal);
+// @include font-face('Heading Pro Wide Trial', '../fonts/HeadingProWideTrial-ExtraLightItalic/HeadingProWideTrial-ExtraLightItalic', 200, italic);
+
+// 300, Light
+// @include font-face('Heading Pro Wide Trial', '../fonts/HeadingProWideTrial-Light/HeadingProWideTrial-Light', 300, normal);
+// @include font-face('Heading Pro Wide Trial', '../fonts/HeadingProWideTrial-LightItalic/HeadingProWideTrial-LightItalic', 300, italic);
+
+// 400, Regular
+@include font-face('Heading Pro Wide Trial', '../fonts/HeadingProWideTrial-Regular/HeadingProWideTrial-Regular', 400, normal);
+@include font-face('Heading Pro Wide Trial', '../fonts/HeadingProWideTrial-Italic/HeadingProWideTrial-Italic', 400, italic);
+
+// 500, Medium
+
+// 600, SemiBold (Demi Bold)
+
+// 700, Bold
+@include font-face('Heading Pro Wide Trial', '../fonts/HeadingProWideTrial-Bold/HeadingProWideTrial-Bold', 700, normal);
+@include font-face('Heading Pro Wide Trial', '../fonts/HeadingProWideTrial-BoldItalic/HeadingProWideTrial-BoldItalic', 700, italic);
+
+// 800, ExtraBold (UltraBold)
+@include font-face('Heading Pro Wide Trial', '../fonts/HeadingProWideTrial-ExtraBold/HeadingProWideTrial-ExtraBold', 800, normal);
+@include font-face('Heading Pro Wide Trial', '../fonts/HeadingProWideTrial-ExtraBoldItalic/HeadingProWideTrial-ExtraBoldItalic', 800, italic);
+
+// 900, Black (Heavy)
+// @include font-face('Heading Pro Wide Trial', '../fonts/HeadingProWideTrial-Black/HeadingProWideTrial-Black', 900, normal);
+// @include font-face('Heading Pro Wide Trial', '../fonts/HeadingProWideTrial-BlackItalic/HeadingProWideTrial-BlackItalic', 900, italic);
+
+/**
+ * BergenMono
+ */
+
+// 400, Regular
+@include font-face('Bergen Mono', '../fonts/BergenMono-Regular/BergenMono-Regular', 400, normal);
+@include font-face('Bergen Mono', '../fonts/BergenMono-Italic/BergenMono-Italic', 400, italic);
+
+// 600, SemiBold
+@include font-face('Bergen Mono', '../fonts/BergenMono-SemiBold/BergenMono-SemiBold', 600, normal);
+@include font-face('Bergen Mono', '../fonts/BergenMono-SemiBoldItalic/BergenMono-SemiBoldItalic', 600, italic);
+
+// 700, Bold
+@include font-face('Bergen Mono', '../fonts/BergenMono-Bold/BergenMono-Bold', 700, normal);
+@include font-face('Bergen Mono', '../fonts/BergenMono-BoldItalic/BergenMono-BoldItalic', 700, italic);
+
+/**
+ * Futura PT
+ */
+
+// 100, Book
+@include font-face('Futura PT', '../fonts/FuturaPT-Book/FuturaPT-Book', 100, normal);
+@include font-face('Futura PT', '../fonts/FuturaPT-BookObl/FuturaPT-BookObl', 100, italic);
+
+// 900, Heavy
+@include font-face('Futura PT', '../fonts/FuturaPT-Heavy/FuturaPT-Heavy', 400, normal);
+@include font-face('Futura PT', '../fonts/FuturaPT-HeavyObl/FuturaPT-HeavyObl', 400, italic);

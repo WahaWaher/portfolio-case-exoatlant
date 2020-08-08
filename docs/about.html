@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <title>Exoatlant — Portfolio case</title>
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+  <link rel="preload" href="fonts/FuturaPT-Book/FuturaPT-Book.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/vendors~app.min.css">
+  <link rel="stylesheet" href="css/app.min.css">
+
+</head>
+<body>
+  <div class="app">
+
+    <!-- AppHeader : Start -->
+    <header class="sct app-header">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-auto pl-sm-0">
+
+            <a class="logo-main app-header__logo-main mr-3" href="#">
+              <svg class="logo-main__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 53">
+                <style>
+                  #logo-x {
+                    visibility: hidden;
+                  }
+
+                  #logo-circle,
+                  #logo-x {
+                    fill: #ed4555;
+                  }
+                </style>
+                <path id="logo-circle" d="M53 26.5a26.5 26.5 0 0 1-26.5 26.5 26.5 26.5 0 0 1-26.5-26.5 26.5 26.5 0 0 1 26.5-26.5 26.5 26.5 0 0 1 26.5 26.5z" />
+                <path id="logo-x" d="M10.037 52.909l1.118-1.06c1.852-3.086 3.972-6.394 6.126-9.481l5.253-8.642 1.235-.617h5.556l1.235.617c1.852 3.086 3.704 6.173 5.556 9.574 1.852 3.086 3.704 5.858 5.253 8.945l.978.664h10.144l-.314-.361-2.469-4.018c-3.704-6.173-7.407-12.346-11.111-18.833v-1.549l12.963-21.605.617-1.235.314-.314h-9.877l-1.235.617-5.858 9.877-4.938 8.339-1.235.617h-5.253l-1.235-.932c-1.852-3.086-3.704-6.487-5.858-9.574l-5.253-8.642-.932-.617h-9.888l.314.617 1.235 2.155 12.346 20.371v1.549c-4.018 6.79-8.025 13.58-12.043 20.068l-1.549 2.469-.722 1.002zm20.196-52.819h-7.407c-.932 0-1.549.617-1.549 1.549v5.556c0 .932.617 1.549 1.549 1.549h7.407c.932 0 1.549-.617 1.549-1.549v-5.556c0-.932-.617-1.549-1.549-1.549z" />
+              </svg>
+            </a>
+
+          </div>
+          <div class="col-auto flex-grow-1 d-none d-md-block">
+
+            <nav class="menu-main">
+              <ul class="menu-main__list list-empty">
+                <li><a href="index.html">Главная</a></li>
+                <li class="_current-menu-item"><a href="about.html">О компании</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+              </ul>
+            </nav>
+
+          </div>
+          <div class="col-auto pr-sm-0 d-none d-md-block">
+
+            <nav class="menu-lang">
+              <div class="menu-lang__current">ru</div>
+              <ul class="menu-lang__list list-empty">
+                <li class="current-lang"><a href="javascript:void(0)">ru</a></li>
+                <li><a href="javascript:void(0)">en</a></li>
+              </ul>
+            </nav>
+
+          </div>
+          <div class="col-auto pr-sm-0 d-md-none flex-grow-1 text-right">
+
+            <button class="hamburger hamburger--emphatic app-header__hamburger" data-drawerToggle="mobile-menu">
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </button>
+
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- AppHeader : End -->
+
+    <!-- AppPage : Start -->
+    <main class="app-page">
+      <!-- Section : Breadcrumbs : Start -->
+      <div class="sct bg-primary sct_under-header">
+
+        <div class="sct__grid">
+          <div class="container h-100 ln-y">
+            <div class="row h-100">
+              <div class="col-4 d-none d-lg-block"></div>
+              <div class="col-4 d-none d-lg-block ln-y"></div>
+              <div class="col-4 d-none d-lg-block bg-primary-dark"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sct__content container pt-4">
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+
+              <div class="breadcrumbs">
+                <span>
+                  <a href="index.html">
+                    <span>Главная</span>
+                  </a>
+                </span>
+                <span class="sep"><i class="aif-chevron-right-solid"></i></span>
+                <span class="current-item">О компании</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Section : Breadcrumbs : End -->
+
+      <!-- Section : About : Start -->
+      <section class="sct bg-primary pt-2 pb-4">
+
+        <div class="sct__grid">
+          <div class="container h-100 ln-y">
+            <div class="row h-100">
+              <div class="col-4 d-none d-lg-block"></div>
+              <div class="col-4 d-none d-lg-block ln-y"></div>
+              <div class="col-4 d-none d-lg-block bg-primary-dark"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Title -->
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+              <h2 class="title-double m-0 mb-6" data-title="О нас">О нас</h2>
+            </div>
+          </div>
+        </div>
+
+        <!-- Content -->
+        <div class="container">
+          <div class="row">
+            <div class="offset-lg-1 col-lg-7">
+
+              <div class="pr-lg-6 mr-xxl-6">
+                <h3 class="title-2 mb-4">
+                  Компания - <span class="text-accent">резидент</span> Кластера
+                  передовых производственных
+                  технологий Фонда <span class="text-accent">«Сколково»</span>
+                </h3>
+
+                <div class="row">
+                  <div class="col-xxxl-6">
+                    <p class="px-lg-3">
+                      Компания «ЭкзоАтлант» — молодой и динамично развивающийся инновационный стартап, занимающийся разработкой индустриальных экзоскелетов. Разработка базируется на опыте и компетенциях, сформированных на проекте по разработке медицинской версии ExoAtlet. Компания «ЭкзоАтлант» — молодой и динамично развивающийся инновационный стартап, занимающийся разработкой индустриальных экзоскелетов. Разработка базируется на опыте и компетенциях, сформированных на проекте по разработке медицинской версии ExoAtlet.
+                      Компания «ЭкзоАтлант» — молодой и динамично развивающийся инновационный стартап, занимающийся разработкой индустриальных экзоскелетов. Разработка базируется на опыте и компетенциях, сформированных на проекте по разработке медицинской версии ExoAtlet.
+                    </p>
+                  </div>
+                  <div class="col-xxxl-6">
+                    <p class="px-lg-3">
+                      Компания «ЭкзоАтлант» — молодой и динамично развивающийся инновационный стартап, занимающийся разработкой индустриальных экзоскелетов. Разработка базируется на опыте и компетенциях, сформированных на проекте по разработке медицинской версии ExoAtlet. Компания «ЭкзоАтлант» — молодой и динамично развивающийся инновационный стартап, занимающийся разработкой индустриальных экзоскелетов. Разработка базируется на опыте и компетенциях, сформированных на проекте по разработке медицинской версии ExoAtlet.
+                      Компания «ЭкзоАтлант» — молодой и динамично развивающийся инновационный стартап, занимающийся разработкой.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-lg-4 mt-4 mt-lg-0">
+
+              <!-- Image -->
+              <div class="ratio-box ratio-box_60 bg-holder mx-ngut">
+                <img class="lazyload" data-src="../img/img-exoteam.jpg" src="svg/lazy.svg" data-preloader alt="photo">
+              </div>
+
+              <!-- Stat -->
+              <div class="row justify-content-center mt-6">
+                <div class="stat-box col-auto col-lg-12 col-xxl-auto mb-4 mb-xxl-0 px-4">
+                  <div class="stat-box__num lazyload" data-counter>60</div>
+                  <div class="stat-box__text">Чиво<br> нибудь</div>
+                </div>
+                <div class="stat-box col-auto col-lg-12 col-xxl-auto mb-4 mb-xxl-0 px-4">
+                  <div class="stat-box__num lazyload" data-counter>120</div>
+                  <div class="stat-box__text">Чиво<br> нибудь</div>
+                </div>
+                <div class="stat-box col-auto col-lg-12 col-xxl-auto mb-4 mb-xxl-0 px-4">
+                  <div class="stat-box__num lazyload" data-counter>07</div>
+                  <div class="stat-box__text">Чиво<br> нибудь</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!-- Section : About : End -->
+
+      <!-- Section : SliderGallery : Start -->
+      <section class="sct sct-gallery bg-primary pt-4">
+
+        <div class="sct__grid">
+          <div class="container h-100 ln-y">
+            <div class="row h-100">
+              <div class="col-4 d-none d-lg-block"></div>
+              <div class="col-4 d-none d-lg-block ln-y"></div>
+              <div class="col-4 d-none d-lg-block bg-primary-dark"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Title -->
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+              <h2 class="title-double m-0 mb-6" data-title="Галерея">Галерея</h2>
+            </div>
+          </div>
+        </div>
+
+        <!-- SliderGallery -->
+        <div class="slider-gallery owl-carousel lazyload" data-slider-default data-owl='{
+          "center": false,
+          "loop": true,
+          "autoplay": true,
+          "autoplayTimeout": 2000,
+          "margin": 2,
+          "responsive": {
+            "0": {
+              "items": 2
+            },
+            "480":  {
+              "items": 3
+            },
+            "768":  {
+              "items": 4
+            },
+            "992": {
+              "items": 5
+            }
+          }
+        }'>
+          <div class="slider-gallery__item" data-aos="fade-up" data-aos-delay="0">
+            <div class="ratio-box ratio-box_120 bg-holder">
+              <img class="slider-gallery__img img-cover owl-lazy" data-src="img/gallery/480/photo-01.jpg" src="svg/lazy.svg" data-preloader alt="photo">
+            </div>
+          </div>
+          <div class="slider-gallery__item" data-aos="fade-up" data-aos-delay="50">
+            <div class="ratio-box ratio-box_120 bg-holder">
+              <img class="slider-gallery__img img-cover owl-lazy" data-src="img/gallery/480/photo-02.jpg" src="svg/lazy.svg" data-preloader alt="photo">
+            </div>
+          </div>
+          <div class="slider-gallery__item" data-aos="fade-up" data-aos-delay="100">
+            <div class="ratio-box ratio-box_120 bg-holder">
+              <img class="slider-gallery__img img-cover owl-lazy" data-src="img/gallery/480/photo-03.jpg" src="svg/lazy.svg" data-preloader alt="photo">
+            </div>
+          </div>
+          <div class="slider-gallery__item" data-aos="fade-up" data-aos-delay="150">
+            <div class="ratio-box ratio-box_120 bg-holder">
+              <img class="slider-gallery__img img-cover owl-lazy" data-src="img/gallery/480/photo-04.jpg" src="svg/lazy.svg" data-preloader alt="photo">
+            </div>
+          </div>
+          <div class="slider-gallery__item" data-aos="fade-up" data-aos-delay="200">
+            <div class="ratio-box ratio-box_120 bg-holder">
+              <img class="slider-gallery__img img-cover owl-lazy" data-src="img/gallery/480/photo-05.jpg" src="svg/lazy.svg" data-preloader alt="photo">
+            </div>
+          </div>
+          <div class="slider-gallery__item" data-aos="fade-up" data-aos-delay="250">
+            <div class="ratio-box ratio-box_120 bg-holder">
+              <img class="slider-gallery__img img-cover owl-lazy" data-src="img/gallery/480/photo-06.jpg" src="svg/lazy.svg" alt="photo">
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!-- Section : SliderGallery : End -->
+
+      <!-- Section : Subscribe : Start -->
+      <section class="sct sct-subscribe bg-primary-light">
+
+        <div class="sct__grid ln-t">
+          <div class="container h-100 ln-y">
+            <div class="row h-100">
+              <div class="col-4 d-none d-lg-block"></div>
+              <div class="col-4 d-none d-lg-block ln-y"></div>
+              <div class="col-4 d-none d-lg-block"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sct__content container py-6" data-decoPlus="top left">
+          <div class="sct-subscribe__content">
+
+            <h2 class="title-1 sct-subscribe__title text-transform-none text-center mb-4 mb-md-3">
+              <span class="text-accent">Подпишись</span> на рассылку
+            </h2>
+
+            <form class="form-subscribe">
+              <div class="sct-subscribe__form-wrapper">
+                <div class="sct-subscribe__textfield mr-2 mb-3 mb-md-0">
+                  <input data-input-animated class="form-input form-input_wide" type="text" placeholder="Ваш e-mail" tabindex="1">
+                </div>
+                <div class="sct-subscribe__submit mb-3 mb-md-0">
+                  <button class="btn btn_wide btn_stroke-anim form-subscribe__submit-btn" type="submit" onclick="return false" tabindex="2">
+                    Подписаться
+                  </button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-subscribe__sign-left col-sm mt-3">
+                  <p class="text-sm text-white m-0">Наш робот рассылки обещает не спамить.</p>
+                </div>
+                <div class="form-subscribe__sign-right col-sm mt-3">
+                  <p class="text-xxs text-white opacity-50 m-0">Подписываясь на рассылку, вы соглашаетесь
+                    с <a href="javascript:void(0)">правилами использования</a>
+                    и <a href="javascript:void(0)">прочими бумажками</a>,
+                    которые придумали кожаные мешки непонятно зачем.</p>
+                </div>
+              </div>
+            </form>
+
+          </div>
+          <!-- DecoDots -->
+          <div class="deco-dots sct-subscribe__deco-dots"></div>
+          <!-- DecoBarcode -->
+          <svg class="sct-subscribe__deco-barcode" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285.7 101.4">
+            <path d="M18 .2h12.7v100.7c-1.9.4-4 .1-6.1.2h-6.6v-100.9zM159.7 78.6h-9.7v-78.4c1.4 0 3-.1 4.6-.1h5.1v78.5zM180.7 78.5h-9.6v-78.4h9.6v78.4zM126 .1h9.7v78.4c-1.4 0-3 .1-4.6.1h-5.1v-78.5zM51.7 101h-9.7v-100.7c1.4-.1 3-.1 4.6-.2h5.1v100.9zM261 .2h9.7v100.7c-1.4.1-3 .1-4.6.2h-5.1v-100.9zM93.7 78.6h-6.7v-78.4h6.7v78.4zM60 .1h6.7v78.3h-6.7v-78.3zM5.9 100.9v-100.6h3.5c.7 4.3 1 82.9.3 100.6h-3.8zM12 .2h3.7v100.7c-1 .1-2.2.1-3.7.2v-100.9zM35.9 100.9v-100.6h3.6c.5.5.8 84.3.2 100.6h-3.8zM69 .1h3.7v78.4c-1 0-2.3.1-3.7.2v-78.6zM78 .1h3.7v78.3c-1 0-2.3.1-3.7.2v-78.5zM102 .1h3.7v78.3c-1 0-2.3.1-3.7.2v-78.5zM114.7 78.6h-3.7v-78.4c1.1 0 2.3-.1 3.7-.2v78.6zM123.7 78.5h-3.6v-78.4h3.6v78.4zM138 .1h3.7v78.3c-1 .1-2.2.1-3.7.2v-78.5zM143.8.1h3.8v78.5h-2c-1.1 0-2 0-1.8-1.2.1-.5 0-1 0-1.6v-75.7zM165 .1h3.7v78.4c-1.1 0-2.3.1-3.7.2v-78.6zM186 .1h3.7v78.3c-1 .1-2.3.1-3.7.2v-78.5zM192 .1h3.7v78.4c-1 0-2.3.1-3.7.2v-78.6zM204 .1h3.7v78.4c-1 0-2.3.1-3.7.2v-78.6zM216.7 78.6h-3.7v-78.3c1 0 2.3-.1 3.7-.2v78.5zM225.7 78.6h-3.7v-78.4c1 0 2.3-.1 3.7-.2v78.6zM237.7 78.6h-3.7v-78.4c1 0 2.3-.1 3.7-.2v78.6zM249.7 101h-3.7v-100.7c1.1-.1 2.3-.1 3.7-.2v100.9zM255 .2h3.7v100.7c-1 .1-2.3.1-3.7.2v-100.9zM0 .2h3.7v100.7c-1 .1-2.2.1-3.7.2v-100.9zM276 .2h3.7v100.7c-1 .1-2.3.1-3.7.2v-100.9zM285.7 101h-3.7v-100.7c1-.1 2.3-.1 3.7-.2v100.9zM60.8 101.1v-14h13v2.4h-9.7v3.4h8.7v2.4h-8.7v3.5h9.8v2.4h-13.1zM83 87.1l4.1 5.2 4.1-5.2h3.9l-5.7 6.9 6.2 7.2h-3.9l-4.6-5.4-4.6 5.4h-3.9l6.2-7.2-5.8-6.9zM99.6 93.5c0-1 .2-1.9.5-2.7.3-.8.9-1.5 1.6-2.1.7-.6 1.6-1.1 2.6-1.4 1.1-.3 2.3-.5 3.8-.5s2.7.2 3.8.5c1.1.3 1.9.8 2.6 1.4.7.6 1.2 1.3 1.6 2.1.3.8.5 1.7.5 2.7v1.2c0 1-.2 1.8-.5 2.7-.3.8-.9 1.5-1.6 2.1-.7.6-1.6 1.1-2.6 1.4-1 .3-2.3.5-3.8.5-1.4 0-2.7-.2-3.8-.5-1.1-.3-1.9-.8-2.6-1.4-.7-.6-1.2-1.3-1.6-2.1-.3-.8-.5-1.7-.5-2.7zm8.5 5.5c.8 0 1.4-.1 2.1-.3.7-.2 1.2-.5 1.6-.8.4-.4.8-.8 1-1.3.2-.5.4-1.1.4-1.8v-1.4c0-.7-.1-1.3-.4-1.8-.2-.5-.6-1-1-1.3-.4-.4-1-.6-1.6-.8-.6-.2-1.3-.3-2.1-.3s-1.4.1-2.1.3c-.7.2-1.2.5-1.6.8-.4.4-.8.8-1 1.3-.2.5-.4 1.1-.4 1.8v1.4c0 .7.1 1.3.4 1.8.2.5.6 1 1 1.3.4.4 1 .6 1.6.8.6.2 1.3.3 2.1.3zM120.7 101.1l6.6-14h4.3l6.6 14h-3.5l-1.4-3.3h-7.8l-1.4 3.3zm5.9-5.6h5.8l-2.7-6.1h-.4zM149.4 89.5v11.7h-3.3v-11.7h-5.8v-2.4h15v2.4zM160.9 101.1v-14h3.4v11.7h8.7v2.4h-12.1zM177.5 101.1l6.6-14h4.3l6.6 14h-3.5l-1.4-3.3h-7.8l-1.4 3.3zm5.9-5.6h5.8l-2.7-6.1h-.4zM212.7 101.1l-8.8-10.1h-.1l.1.9v9.2h-3.2v-14h3.3l8.9 10.3h.1l-.1-.8v-9.5h3.2v14zM231 89.5v11.7h-3.3v-11.7h-5.8v-2.4h15v2.4z" />
+          </svg>
+        </div>
+
+      </section>
+      <!-- Section : Subscribe : End -->
+    </main>
+    <!-- AppPage : End -->
+
+    <!-- AppFooter : Start -->
+    <footer class="sct app-footer">
+
+      <!-- Grid -->
+      <div class="sct__grid ln-t">
+        <div class="container h-100 ln-y">
+          <div class="row h-100">
+            <div class="col-4 d-none d-lg-block"></div>
+            <div class="col-4 d-none d-lg-block ln-y"></div>
+            <div class="col-4 d-none d-lg-block"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MainFooter -->
+      <div class="sct__content container">
+        <div class="row pb-5 pos-relative">
+          <!-- 1 -->
+          <div class="col-md-5 col-lg-4 mb-5 mb-xl-0 pl-sm-0">
+
+            <a href="index.html" class="logo-main-full mb-3">
+              <img class="logo-main-full__img lazyload" data-src="../svg/logo-full.svg" src="svg/lazy.svg" alt="logo">
+            </a>
+            <p class="m-0 text-xs">
+              It was some time before he obtained<br>
+              any answer, and the reply, when made,<br>
+              was unpropitious.
+            </p>
+
+          </div>
+          <!-- 2 -->
+          <div class="col-md-7 col-lg-4 pl-sm-0 flex-grow-1">
+            <div class="row">
+              <div class="col-sm-5 mb-5 mb-lg-0">
+
+                <div class="title-4 app-footer__title font-weight-book mb-4 pb-3">Exoatlant</div>
+                <nav class="menu-vertical app-footer__menu-vertical">
+                  <ul class="menu-vertical__list list-empty">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">О компании</a></li>
+                    <li><a href="news.html">Новости</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                  </ul>
+                </nav>
+
+              </div>
+              <div class="col-sm-7 mb-5 mb-lg-0">
+
+                <div class="title-4 app-footer__title font-weight-book mb-4 pb-2">Для связи</div>
+                <address class="address-box app-footer__address-box">
+
+                  <div class="icon-box my-3">
+                    <div class="icon-box__icon">
+                      <i class="aif-map-marker-alt"></i>
+                    </div>
+                    <div class="icon-box__text">
+                      г. Москва, ... переулок, дом 00, офис&nbsp;0
+                    </div>
+                  </div>
+
+                  <div class="icon-box my-3">
+                    <div class="icon-box__icon">
+                      <i class="aif-phone"></i>
+                    </div>
+                    <div class="icon-box__text">
+                      <a class="text-nowrap" href="tel:+70000000000">+7 000 000-00-00</a>
+                    </div>
+                  </div>
+
+                  <div class="icon-box my-3">
+                    <div class="icon-box__icon">
+                      <i class="aif-envelope"></i>
+                    </div>
+                    <div class="icon-box__text">
+                      <a class="text-nowrap" href="mailto:info@example.ru">info@example.ru</a>
+                    </div>
+                  </div>
+
+                </address>
+
+              </div>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="col-md-12 col-lg-4 col-xxl-4 pl-sm-0">
+
+            <ul class="partners-list list-empty">
+              <li class="mb-4 mr-4">
+                <img class="lazyload" data-src="../svg/logo-exoatlet.svg" src="../svg/lazy.svg" alt="logo">
+              </li>
+              <li class="mb-4 mr-4">
+                <img class="lazyload" data-src="../svg/logo-skolkovo.svg" src="../svg/lazy.svg" alt="logo">
+              </li>
+            </ul>
+            <p class="m-0 text-xs">Исследования осуществляются при<br> грантовой поддержке Фонда «Сколково»</p>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- SubFooter -->
+      <div class="sct__content">
+
+        <!-- Grid -->
+        <div class="sct__grid ln-t ln-t_fluid"></div>
+
+        <!-- Content -->
+        <div class="container">
+          <div class="row pt-4 pb-5">
+            <div class="col-lg-4 pl-sm-0">
+              <p class="m-0 text-xs">© 2020 ExoAtlet. ExoAtlant. All rights reserved <a href="javascript:void(0)">Политика Конфеденциальности</a></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </footer>
+    <!-- AppFooter : End -->
+
+  </div>
+
+  <!-- AppDrawer : Start -->
+  <aside class="drawer-main d-flex flex-column justify-content-between" data-drawer="mobile-menu">
+    <div class="drawer-main__header">
+      <div class="sct app-header z-1">
+        <div class="container px-sm-0">
+          <div class="row align-items-center">
+            <div class="col-auto">
+
+              <a class="logo-main app-header__logo-main mr-3" href="javascript:void(0)">
+                <!-- <img class="logo-main__img" src="svg/logo-mini.svg" alt="logo"> -->
+                <svg class="logo-main__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 53">
+                  <path fill="#ed4555" d="M53 26.5a26.5 26.5 0 0 1-26.5 26.5 26.5 26.5 0 0 1-26.5-26.5 26.5 26.5 0 0 1 26.5-26.5 26.5 26.5 0 0 1 26.5 26.5z" />
+                </svg>
+              </a>
+
+            </div>
+            <div class="col-auto flex-grow-1 text-right">
+
+              <button class="hamburger hamburger--emphatic app-header__hamburger" data-drawerToggle="mobile-menu">
+                <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+                </span>
+              </button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="drawer-main__content">
+      <div class="sct">
+        <div class="container px-sm-0 text-right">
+
+          <nav class="menu-main-vertical drawer-main__menu-main-vertical">
+            <ul class="menu-main-vertical__list list-empty">
+              <li><a href="index.html">Главная</a></li>
+              <li><a href="about.html">О компании</a></li>
+              <li><a href="news.html">Новости</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+          </nav>
+
+          <nav class="menu-lang menu-lang_collapsed drawer-main__menu-lang d-flex justify-content-end my-6">
+            <ul class="menu-lang__list list-empty">
+              <li class="current-lang"><a href="javascript:void(0)">ru</a></li>
+              <li><a href="javascript:void(0)">en</a></li>
+            </ul>
+          </nav>
+
+        </div>
+      </div>
+    </div>
+    <div class="drawer-main__footer">
+
+    </div>
+  </aside>
+  <!-- AppDrawer : End -->
+
+  <div id="top-button"></div>
+
+  <script>window.lazySizesConfig={init:!1}</script>
+  <script src="js/vendors~app.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+</body>
+</html>

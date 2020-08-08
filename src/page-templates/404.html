@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  @@include('../parts/head.html')
+</head>
+<body>
+  <div class="app">
+
+    <!-- AppHeader : Start -->
+    @@include('../parts/header.html')
+    <!-- AppHeader : End -->
+
+    <!-- AppPage : Start -->
+    <main class="app-page">
+      <!-- Section : PageNotFound : Start -->
+      <section class="sct sct_under-header bg-primary">
+
+        <div class="sct__grid">
+          <div class="container h-100 ln-y">
+            <div class="row h-100">
+              <div class="col-4 d-none d-lg-block"></div>
+              <div class="col-4 d-none d-lg-block ln-y"></div>
+              <div class="col-4 d-none d-lg-block"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sct__content container pb-6">
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+
+              <!-- Breadcrumbs -->
+              <div class="breadcrumbs pt-4 pb-2">
+                <span>
+                  <a href="index.html">
+                    <span>Главная</span>
+                  </a>
+                </span>
+                <span class="sep"><i class="aif-chevron-right-solid"></i></span>
+                <span class="current-item">Страница не найдена</span>
+              </div>
+
+              <!-- SectionTitle -->
+              <h2 class="title-double mb-5" data-title="Страница не найдена">Страница не найдена</h2>
+
+              <!-- SectionContent -->
+              <div>
+                <a class="btn" href="index.html">На главную</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!-- Section : PageNotFound : End -->
+    </main>
+    <!-- AppPage : End -->
+
+    <!-- AppFooter : Start -->
+    @@include('../parts/footer.html')
+    <!-- AppFooter : End -->
+
+  </div>
+
+  <!-- AppDrawer : Start -->
+  @@include('../parts/drawer.html')
+  <!-- AppDrawer : End -->
+
+  <div id="top-button"></div>
+
+  <script>window.lazySizesConfig={init:!1}</script>
+  <!-- build:js -->
+  <script src="js/vendors~app.min.js"></script>
+  <script src="js/app.js"></script>
+  <!-- endbuild -->
+</body>
+</html>

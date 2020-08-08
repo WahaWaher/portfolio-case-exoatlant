@@ -1,0 +1,69 @@
+// Palette
+$white: #fff;
+
+$black: #000;
+$black-light: #282828;
+$black-dark: #111619;
+
+$grey-extra-light: #e8e8e8;
+$grey-light: #d7d7d7;
+$grey: #8c8f94;
+
+$accent: #ed4555;
+
+$primary-extra-light: #111e29;
+$primary-light: #101b23;
+$primary: #101920;
+$primary-dark: #10181e;
+$primary-extra-dark: #0e1316;
+
+// Typography
+$app-font: 'Bergen Mono', Monospace, sans-serif;
+$app-font-size: 16px;
+$app-line-height: 1.2;
+$app-font-weight: 400;
+$app-letter-spacing: normal; // 0.05em === 50(photoshop)/1000
+
+$accent-font: 'Heading Pro Wide Trial', sans-serif;
+$deco-font: 'Futura PT', sans-serif;
+
+// Transitions
+$trs: .15s;
+
+/**
+ * Bootstrap grid/utils
+ */
+$grid-breakpoints: (
+  xs: 0, // 0-575
+  sm: 576px, // 576-767
+  md: 768px, // 768-991
+  lg: 992px, // 992-1279
+  xl: 1280px, // 1280-1439
+  xxl: 1440px, // 1440-1919
+  xxxl: 1920px // 1920-...
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1200px,
+  xxl: 1400px,
+  xxxl: 1750px
+);
+
+$grid-columns: 12;
+$grid-gutter-width: 30px;
+
+// Spacing
+$spacer: 1rem;
+$spacers: (0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 3),
+  6: ($spacer * 3.75),
+  7: ($spacer * 4.5),
+  gut: $grid-gutter-width / 2
+);

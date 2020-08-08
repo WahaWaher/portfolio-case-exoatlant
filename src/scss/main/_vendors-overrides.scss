@@ -1,0 +1,63 @@
+/**
+ * Fancybox global overrides
+ */
+// Gallery styles
+.fancybox {
+  &-thumbs__list {
+    a {
+      &:before {
+        border: 3px solid $accent;
+      }
+    }
+  }
+  &-progress {
+    background: $accent;
+  }
+  &-is-open {
+    .fancybox-bg {
+      opacity: .8;
+    }
+  }
+}
+// Scroll
+.compensate-for-scrollbar {
+  margin-right: 0 !important;
+}
+
+/**
+ * Block: mrc-btn
+ */
+.mrc-btn {
+  cursor: pointer;
+  font-family: $deco-font;
+  color: $accent;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  transition: all $trs;
+  &:hover {
+    color: $white;
+  }
+}
+
+/**
+ * Block: mrc-shadow
+ */
+.mrc-shadow {
+  pointer-events: none;
+  position: absolute;
+  height: 100px;
+  left: 0; right: 0; bottom: 0;
+  z-index: 999;
+  background: linear-gradient(to top, $primary 14%, rgba(black, 0) 100%);
+}
+
+/**
+ * Hamburger
+ */
+.hamburger {
+  font-size: 0;
+}
