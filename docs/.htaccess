@@ -20,7 +20,7 @@ RewriteRule ^(.*)$ index.php?route=$1 [L,QSA]
   ## Enable expiration control
   ExpiresActive On
   
-  ## CSS and JS expiration: 3 week after request
+  ## CSS and JS expiration: 1 year after request
   ExpiresByType text/css "now plus 1 year"
   ExpiresByType application/javascript "now plus 1 year"
   ExpiresByType application/x-javascript "now plus 1 year"

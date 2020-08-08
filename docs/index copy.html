@@ -2,365 +2,351 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="robots" content="noindex">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <title>Exoatlant — Portfolio case</title>
+<title>Exoatlant — Portfolio case</title>
 
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
 
-  <link rel="preload" href="fonts/FuturaPT-Book/FuturaPT-Book.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="fonts/FuturaPT-Book/FuturaPT-Book.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="css/vendors~app.min.css">
-  <link rel="stylesheet" href="css/app.min.css">
-
+<!-- build:css -->
+<link rel="stylesheet" href="css/vendors~app.min.css">
+<link rel="stylesheet" href="css/app.css">
+<!-- endbuild -->
 </head>
 <body>
   <div class="app">
 
     <!-- AppHeader : Start -->
     <header class="sct app-header">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-auto pl-sm-0">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-auto pl-sm-0">
 
-            <a class="logo-main app-header__logo-main mr-3" href="#">
-              <svg class="logo-main__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 53">
-                <style>
-                  #logo-x {
-                    visibility: hidden;
-                  }
+        <a class="logo-main app-header__logo-main mr-3" href="#">
+          <svg class="logo-main__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 53">
+            <style>
+              #logo-x{visibility:hidden;}
+              #logo-circle,#logo-x{fill:#ed4555;}
+            </style>
+            <path id="logo-circle" d="M53 26.5a26.5 26.5 0 0 1-26.5 26.5 26.5 26.5 0 0 1-26.5-26.5 26.5 26.5 0 0 1 26.5-26.5 26.5 26.5 0 0 1 26.5 26.5z"/>
+            <path id="logo-x" d="M10.037 52.909l1.118-1.06c1.852-3.086 3.972-6.394 6.126-9.481l5.253-8.642 1.235-.617h5.556l1.235.617c1.852 3.086 3.704 6.173 5.556 9.574 1.852 3.086 3.704 5.858 5.253 8.945l.978.664h10.144l-.314-.361-2.469-4.018c-3.704-6.173-7.407-12.346-11.111-18.833v-1.549l12.963-21.605.617-1.235.314-.314h-9.877l-1.235.617-5.858 9.877-4.938 8.339-1.235.617h-5.253l-1.235-.932c-1.852-3.086-3.704-6.487-5.858-9.574l-5.253-8.642-.932-.617h-9.888l.314.617 1.235 2.155 12.346 20.371v1.549c-4.018 6.79-8.025 13.58-12.043 20.068l-1.549 2.469-.722 1.002zm20.196-52.819h-7.407c-.932 0-1.549.617-1.549 1.549v5.556c0 .932.617 1.549 1.549 1.549h7.407c.932 0 1.549-.617 1.549-1.549v-5.556c0-.932-.617-1.549-1.549-1.549z" />
+          </svg>
+        </a>
 
-                  #logo-circle,
-                  #logo-x {
-                    fill: #ed4555;
-                  }
-                </style>
-                <path id="logo-circle" d="M53 26.5a26.5 26.5 0 0 1-26.5 26.5 26.5 26.5 0 0 1-26.5-26.5 26.5 26.5 0 0 1 26.5-26.5 26.5 26.5 0 0 1 26.5 26.5z" />
-                <path id="logo-x" d="M10.037 52.909l1.118-1.06c1.852-3.086 3.972-6.394 6.126-9.481l5.253-8.642 1.235-.617h5.556l1.235.617c1.852 3.086 3.704 6.173 5.556 9.574 1.852 3.086 3.704 5.858 5.253 8.945l.978.664h10.144l-.314-.361-2.469-4.018c-3.704-6.173-7.407-12.346-11.111-18.833v-1.549l12.963-21.605.617-1.235.314-.314h-9.877l-1.235.617-5.858 9.877-4.938 8.339-1.235.617h-5.253l-1.235-.932c-1.852-3.086-3.704-6.487-5.858-9.574l-5.253-8.642-.932-.617h-9.888l.314.617 1.235 2.155 12.346 20.371v1.549c-4.018 6.79-8.025 13.58-12.043 20.068l-1.549 2.469-.722 1.002zm20.196-52.819h-7.407c-.932 0-1.549.617-1.549 1.549v5.556c0 .932.617 1.549 1.549 1.549h7.407c.932 0 1.549-.617 1.549-1.549v-5.556c0-.932-.617-1.549-1.549-1.549z" />
-              </svg>
-            </a>
-
-          </div>
-          <div class="col-auto flex-grow-1 d-none d-md-block">
-
-            <nav class="menu-main">
-              <ul class="menu-main__list list-empty">
-                <li><a href="/">Главная</a></li>
-                <li class="_current-menu-item"><a href="/about.html">О компании</a></li>
-                <li><a href="/news.html">Новости</a></li>
-                <li><a href="/contacts.html">Контакты</a></li>
-              </ul>
-            </nav>
-
-          </div>
-          <div class="col-auto pr-sm-0 d-none d-md-block">
-
-            <nav class="menu-lang">
-              <div class="menu-lang__current">ru</div>
-              <ul class="menu-lang__list list-empty">
-                <li class="current-lang"><a href="javascript:void(0)">ru</a></li>
-                <li><a href="javascript:void(0)">en</a></li>
-              </ul>
-            </nav>
-
-          </div>
-          <div class="col-auto pr-sm-0 d-md-none flex-grow-1 text-right">
-
-            <button class="hamburger hamburger--emphatic app-header__hamburger" data-drawerToggle="mobile-menu">
-              <span class="hamburger-box">
-                <span class="hamburger-inner"></span>
-              </span>
-            </button>
-
-          </div>
-        </div>
       </div>
-    </header>
+      <div class="col-auto flex-grow-1 d-none d-md-block">
+
+        <nav class="menu-main">
+          <ul class="menu-main__list list-empty">
+            <li><a href="/">Главная</a></li>
+            <li class="_current-menu-item"><a href="/about.html">О компании</a></li>
+            <li><a href="/news.html">Новости</a></li>
+            <li><a href="/contacts.html">Контакты</a></li>
+          </ul>
+        </nav>
+
+      </div>
+      <div class="col-auto pr-sm-0 d-none d-md-block">
+
+        <nav class="menu-lang">
+          <div class="menu-lang__current">ru</div>
+          <ul class="menu-lang__list list-empty">
+            <li class="current-lang"><a href="javascript:void(0)">ru</a></li>
+            <li><a href="javascript:void(0)">en</a></li>
+          </ul>
+        </nav>
+
+      </div>
+      <div class="col-auto pr-sm-0 d-md-none flex-grow-1 text-right">
+        
+        <button class="hamburger hamburger--emphatic app-header__hamburger" data-drawerToggle="mobile-menu">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+        
+      </div>
+    </div>
+  </div>
+</header>
     <!-- AppHeader : End -->
 
     <!-- AppPage : Start -->
     <main class="app-page">
       <!-- Section : MainScreen : Start -->
-      <section class="sct sct-main-screen d-flex flex-column justify-content-center justify-content-xl-end sct_under-header">
-
-        <div class="sct__grid">
-          <div class="container h-100 ln-y">
-            <!-- <div class="row h-100">
+<section class="sct sct-main-screen d-flex flex-column justify-content-center justify-content-xl-end sct_under-header">
+  
+  <div class="sct__grid">
+    <div class="container h-100 ln-y">
+      <!-- <div class="row h-100">
         <div class="col-4 d-none d-lg-block"></div>
         <div class="col-4 d-none d-lg-block ln-y"></div>
         <div class="col-4 d-none d-lg-block"></div>
       </div> -->
+    </div>
+  </div>
+
+  <!-- Background -->
+  <div class="rellax-box opacity-50 z-0">
+    <img class="sct__bg img-cover lazyload" data-rellax-speed="-7" data-src="img/bg-industrial.jpg" data-srcset="img/bg-industrial.jpg 768w" data-sizes="auto" src="svg/lazy.svg" alt="background">
+  </div>
+
+  <!-- Content -->
+  <div class="sct__content sct-main-screen__content d-flex h-100">
+    <div class="container d-flex flex-column position-relative justify-content-center justify-content-xl-end pos-relative">
+      <div class="row  mt-n7 mt-xl-0">
+        <div class="col pr-0">
+
+          <!-- MainLogoText -->
+          <div class="title-main sct-main-screen__title-main px-3 ml-xl-5 text-right">
+            <!-- <img class="title-main__img" src="../svg/logo-text.svg" alt="img"> -->
+            <svg class="title-main__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.23 4.54">
+              <path fill="#fff" d="M11.504 3.018l.002-1.176-.049-.116-.357-.349-.265-.265-.106-.053h-1.908l-.106.053-.265.265-.345.345-.027.106v1.935l.053.106.609.609.126.057h1.9l.122-.057.583-.583.036-.106-.002-.771zm-2.683.56l-.027-.027v-1.458l.027-.053.08-.08.133-.106.053-.027h1.378l.053.027.212.212.027.053v1.458l-.027.053-.212.212-.027.027h-1.378l-.027-.027-.265-.265z"/>
+              <path fill="#ed4555" d="M4.269 4.535l.096-.091c.159-.265.341-.549.526-.814l.451-.742.106-.053h.477l.106.053c.159.265.318.53.477.822.159.265.318.503.451.768l.084.057h.871l-.027-.031-.212-.345c-.318-.53-.636-1.06-.954-1.617v-.133l1.113-1.855.053-.106.027-.027h-.848l-.106.053-.503.848-.424.716-.106.053h-.451l-.106-.08c-.159-.265-.318-.557-.503-.822l-.451-.742-.08-.053h-.849l.027.053.106.185 1.06 1.749v.133c-.345.583-.689 1.166-1.034 1.723l-.133.212-.062.086zm1.734-4.535h-.636c-.08 0-.133.053-.133.133v.477c0 .08.053.133.133.133h.636c.08 0 .133-.053.133-.133v-.477c0-.08-.053-.133-.133-.133z"/>
+              <path fill="#fff" d="M.741 3.241h2.254l.08-.027.027-.08v-.531l-.027-.08-.053-.027h-2.254v-.663h2.28l.053-.027.027-.08v-.504c0-.08-.027-.106-.106-.106h-2.916c-.08 0-.106.027-.106.106v3.313h3.022l.053-.027.027-.08v-.504c0-.08-.027-.106-.106-.106h-2.227v-.451l-.027-.133z"/>
+              <path fill="#fff" d="M21.941 4.058v-.133c0-.08-.027-.106-.106-.106h-2.253v-2.677l-.027-.053-.08-.027h-.531c-.106 0-.106.027-.106.106v3.26l.027.08.053.027h2.915l.08-.027.027-.08v-.371z"/>
+              <path fill="#fff" d="M18.364 1.168l-.027-.08-.08-.027h-2.942l-.08.027-.027.08v.53c0 .08.027.106.106.106h1.088v2.624l.027.08.08.027h.557c.08 0 .106-.027.106-.106v-2.624h1.089c.08 0 .08-.027.08-.106v-.159c.027-.133.027-.265.027-.371z"/>
+              <path fill="#fff" d="M33.234 1.187c.002-.074-.022-.124-.111-.127h-2.942l-.08.027-.027.08v.53c0 .08.027.106.106.106h1.088v2.624l.027.08.08.027h.557c.08 0 .106-.027.106-.106v-2.624h1.089c.08 0 .106-.023.107-.102l.004-.168z"/>
+              <path fill="#fff" d="M12.982 1.138l-.08.053-.264.742-.027.105-.158.477-.213.609-.398 1.113-.053.158-.047.139h.705l.096-.061c.053-.185.15-.422.229-.607l.053-.053h1.643l.053.053.107.293.105.291.105.08h.637v-.027l-.184-.557c-.106-.292-.213-.582-.293-.873-.212-.636-.423-1.246-.662-1.855l-.107-.08zm.506.689h.266l.025.025.293.85.158.477h-1.248v-.025l.055-.135.291-.82.08-.213.027-.053z"/>
+              <path fill="#fff" d="M23.396 1.138l-.08.053-.264.742-.027.105-.16.477-.211.609-.398 1.113-.053.158-.051.139h.756l.064-.084c.053-.185.134-.399.213-.584l.053-.053h1.643l.053.053.107.293.105.291.105.08h.637v-.027l-.184-.557c-.106-.292-.213-.582-.293-.873-.212-.636-.423-1.246-.662-1.855l-.107-.08zm.506.689h.266l.025.025.293.85.158.477h-1.248v-.025l.053-.135.293-.82.08-.213.027-.053z"/>
+              <path fill="#fff" d="M29.679 1.22c0-.106-.027-.106-.106-.106h-.61v2.359l-1.881-2.305-.106-.053h-.557c-.106 0-.106.027-.106.106v3.207c0 .106.027.106.106.106h.503c.106 0 .106-.027.106-.106v-2.173l1.802 2.2c.053.053.106.08.159.08h.583c.106 0 .106-.027.106-.106v-1.961z"/>
+            </svg>
+            <h1 class="title-main__sub text-white opacity-50">Промышленный экзоскелет</h1>
           </div>
+
         </div>
+      </div>
 
-        <!-- Background -->
-        <div class="rellax-box opacity-50 z-0">
-          <img class="sct__bg img-cover lazyload" data-rellax-speed="-7" data-src="img/bg-industrial.jpg" data-srcset="img/bg-industrial.jpg 768w" data-sizes="auto" src="svg/lazy.svg" alt="background">
-        </div>
+      <!-- PlayButton -->
+      <a data-fancybox href="https://www.youtube.com/watch?v=w3tHfk1kPHs" class="btn-play text-white text-right sct-main-screen__btn-play">
+        <span class="btn-play__text">Play video</span>
+        <span class="btn-play__circle">
+          <span class="btn-play__icon">
+            <i class="aif-play"></i>
+          </span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+            <defs>
+              <mask id="mask-path" x="0" y="0">
+                <polygon points="0,0 120,0 120,120 0,120" fill="url(#rg)" />
+                <linearGradient id="rg">
+                  <stop offset="0%" style="stop-color: #fff; stop-opacity: 0" />
+                  <stop offset="75%" style="stop-color: #fff; stop-opacity: 1" />
+                </linearGradient>
+              </mask>
+            </defs>
+            <circle mask="url(#mask-path)" cx="60" cy="60" r="54.285" />
+          </svg>
+        </span>
+      </a>
 
-        <!-- Content -->
-        <div class="sct__content sct-main-screen__content d-flex h-100">
-          <div class="container d-flex flex-column position-relative justify-content-center justify-content-xl-end pos-relative">
-            <div class="row  mt-n7 mt-xl-0">
-              <div class="col pr-0">
+    </div>
+  </div>
 
-                <!-- MainLogoText -->
-                <div class="title-main sct-main-screen__title-main px-3 ml-xl-5 text-right">
-                  <!-- <img class="title-main__img" src="../svg/logo-text.svg" alt="img"> -->
-                  <svg class="title-main__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.23 4.54">
-                    <path fill="#fff" d="M11.504 3.018l.002-1.176-.049-.116-.357-.349-.265-.265-.106-.053h-1.908l-.106.053-.265.265-.345.345-.027.106v1.935l.053.106.609.609.126.057h1.9l.122-.057.583-.583.036-.106-.002-.771zm-2.683.56l-.027-.027v-1.458l.027-.053.08-.08.133-.106.053-.027h1.378l.053.027.212.212.027.053v1.458l-.027.053-.212.212-.027.027h-1.378l-.027-.027-.265-.265z" />
-                    <path fill="#ed4555" d="M4.269 4.535l.096-.091c.159-.265.341-.549.526-.814l.451-.742.106-.053h.477l.106.053c.159.265.318.53.477.822.159.265.318.503.451.768l.084.057h.871l-.027-.031-.212-.345c-.318-.53-.636-1.06-.954-1.617v-.133l1.113-1.855.053-.106.027-.027h-.848l-.106.053-.503.848-.424.716-.106.053h-.451l-.106-.08c-.159-.265-.318-.557-.503-.822l-.451-.742-.08-.053h-.849l.027.053.106.185 1.06 1.749v.133c-.345.583-.689 1.166-1.034 1.723l-.133.212-.062.086zm1.734-4.535h-.636c-.08 0-.133.053-.133.133v.477c0 .08.053.133.133.133h.636c.08 0 .133-.053.133-.133v-.477c0-.08-.053-.133-.133-.133z" />
-                    <path fill="#fff" d="M.741 3.241h2.254l.08-.027.027-.08v-.531l-.027-.08-.053-.027h-2.254v-.663h2.28l.053-.027.027-.08v-.504c0-.08-.027-.106-.106-.106h-2.916c-.08 0-.106.027-.106.106v3.313h3.022l.053-.027.027-.08v-.504c0-.08-.027-.106-.106-.106h-2.227v-.451l-.027-.133z" />
-                    <path fill="#fff" d="M21.941 4.058v-.133c0-.08-.027-.106-.106-.106h-2.253v-2.677l-.027-.053-.08-.027h-.531c-.106 0-.106.027-.106.106v3.26l.027.08.053.027h2.915l.08-.027.027-.08v-.371z" />
-                    <path fill="#fff" d="M18.364 1.168l-.027-.08-.08-.027h-2.942l-.08.027-.027.08v.53c0 .08.027.106.106.106h1.088v2.624l.027.08.08.027h.557c.08 0 .106-.027.106-.106v-2.624h1.089c.08 0 .08-.027.08-.106v-.159c.027-.133.027-.265.027-.371z" />
-                    <path fill="#fff" d="M33.234 1.187c.002-.074-.022-.124-.111-.127h-2.942l-.08.027-.027.08v.53c0 .08.027.106.106.106h1.088v2.624l.027.08.08.027h.557c.08 0 .106-.027.106-.106v-2.624h1.089c.08 0 .106-.023.107-.102l.004-.168z" />
-                    <path fill="#fff" d="M12.982 1.138l-.08.053-.264.742-.027.105-.158.477-.213.609-.398 1.113-.053.158-.047.139h.705l.096-.061c.053-.185.15-.422.229-.607l.053-.053h1.643l.053.053.107.293.105.291.105.08h.637v-.027l-.184-.557c-.106-.292-.213-.582-.293-.873-.212-.636-.423-1.246-.662-1.855l-.107-.08zm.506.689h.266l.025.025.293.85.158.477h-1.248v-.025l.055-.135.291-.82.08-.213.027-.053z" />
-                    <path fill="#fff" d="M23.396 1.138l-.08.053-.264.742-.027.105-.16.477-.211.609-.398 1.113-.053.158-.051.139h.756l.064-.084c.053-.185.134-.399.213-.584l.053-.053h1.643l.053.053.107.293.105.291.105.08h.637v-.027l-.184-.557c-.106-.292-.213-.582-.293-.873-.212-.636-.423-1.246-.662-1.855l-.107-.08zm.506.689h.266l.025.025.293.85.158.477h-1.248v-.025l.053-.135.293-.82.08-.213.027-.053z" />
-                    <path fill="#fff" d="M29.679 1.22c0-.106-.027-.106-.106-.106h-.61v2.359l-1.881-2.305-.106-.053h-.557c-.106 0-.106.027-.106.106v3.207c0 .106.027.106.106.106h.503c.106 0 .106-.027.106-.106v-2.173l1.802 2.2c.053.053.106.08.159.08h.583c.106 0 .106-.027.106-.106v-1.961z" />
-                  </svg>
-                  <h1 class="title-main__sub text-white opacity-50">Промышленный экзоскелет</h1>
+  <!-- BackgroundText -->
+  <div class="sct-main-screen__logo-bg">
+    <!-- <img class="d-none d-sm-block" src="../svg/logo-text-outline.svg" alt="logo"> -->
+    <!-- <img class="d-block d-sm-none" src="../svg/logo-text-exo-outline.svg" alt="logo"> -->
+    <svg class="d-block d-sm-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.51 4.55">
+      <style>
+        .a{stroke:#fff;stroke-width:.003;fill:none}
+      </style>
+      <path class="a" d="M11.507 3.021l.002-1.176-.049-.116-.357-.349-.265-.265-.106-.053h-1.908l-.106.053-.265.265-.345.345-.027.106v1.935l.053.106.609.609.126.057h1.9l.122-.057.583-.583.036-.106-.002-.771zm-2.683.56l-.027-.027v-1.458l.027-.053.08-.08.133-.106.053-.027h1.378l.053.027.212.212.027.053v1.458l-.027.053-.212.212-.027.027h-1.378l-.027-.027-.265-.265z"/>
+      <path class="a" d="M4.196 4.537l.096-.091c.159-.265.341-.549.526-.814l.451-.742.106-.053h.477l.106.053c.159.265.318.53.477.822.159.265.318.503.451.768l.084.057h.871l-.027-.031-.212-.345c-.318-.53-.636-1.06-.954-1.617v-.133l1.113-1.855.053-.106.027-.027h-.848l-.106.053-.503.848-.424.716-.106.053h-.451l-.106-.08c-.159-.265-.318-.557-.503-.822l-.451-.742-.08-.053h-.849l.027.053.106.185 1.06 1.749v.133c-.345.583-.689 1.166-1.034 1.723l-.133.212-.062.086zm1.734-4.535h-.636c-.08 0-.133.053-.133.133v.477c0 .08.053.133.133.133h.636c.08 0 .133-.053.133-.133v-.477c0-.08-.053-.133-.133-.133z"/>
+      <path class="a" d="M.744 3.244h2.254l.08-.027.027-.08v-.531l-.027-.08-.053-.027h-2.254v-.663h2.28l.053-.027.027-.08v-.504c0-.08-.027-.106-.106-.106h-2.916c-.08 0-.106.027-.106.106v3.313h3.022l.053-.027.027-.08v-.504c0-.08-.027-.106-.106-.106h-2.227v-.451l-.027-.133z"/>
+    </svg>
+    <svg class="d-none d-sm-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.23 4.54">
+      <style>
+        .b{stroke:#fff;stroke-width:.0025;fill:none;}
+      </style>
+      <path class="b" d="M11.504 3.018l.002-1.176-.049-.116-.357-.349-.265-.265-.106-.053h-1.908l-.106.053-.265.265-.345.345-.027.106v1.935l.053.106.609.609.126.057h1.9l.122-.057.583-.583.036-.106-.002-.771zm-2.683.56l-.027-.027v-1.458l.027-.053.08-.08.133-.106.053-.027h1.378l.053.027.212.212.027.053v1.458l-.027.053-.212.212-.027.027h-1.378l-.027-.027-.265-.265z"/>
+      <path class="b" d="M4.457 4.535l.096-.091c.159-.265.341-.549.526-.814l.451-.742.106-.053h.477l.106.053c.159.265.318.53.477.822.159.265.318.503.451.768l.084.057h.871l-.027-.031-.212-.345c-.318-.53-.636-1.06-.954-1.617v-.133l1.113-1.855.053-.106.027-.027h-.848l-.106.053-.503.848-.424.716-.106.053h-.451l-.106-.08c-.159-.265-.318-.557-.503-.822l-.451-.742-.08-.053h-.849l.027.053.106.185 1.06 1.749v.133c-.345.583-.689 1.166-1.034 1.723l-.133.212-.062.086zm1.734-4.535h-.636c-.08 0-.133.053-.133.133v.477c0 .08.053.133.133.133h.636c.08 0 .133-.053.133-.133v-.477c0-.08-.053-.133-.133-.133z"/>
+      <path class="b" d="M.741 3.241h2.254l.08-.027.027-.08v-.531l-.027-.08-.053-.027h-2.254v-.663h2.28l.053-.027.027-.08v-.504c0-.08-.027-.106-.106-.106h-2.916c-.08 0-.106.027-.106.106v3.313h3.022l.053-.027.027-.08v-.504c0-.08-.027-.106-.106-.106h-2.227v-.451l-.027-.133z"/>
+      <path class="b" d="M21.941 4.058v-.133c0-.08-.027-.106-.106-.106h-2.253v-2.677l-.027-.053-.08-.027h-.531c-.106 0-.106.027-.106.106v3.26l.027.08.053.027h2.915l.08-.027.027-.08v-.371z"/>
+      <path class="b" d="M18.364 1.168l-.027-.08-.08-.027h-2.942l-.08.027-.027.08v.53c0 .08.027.106.106.106h1.088v2.624l.027.08.08.027h.557c.08 0 .106-.027.106-.106v-2.624h1.089c.08 0 .08-.027.08-.106v-.159c.027-.133.027-.265.027-.371z"/>
+      <path class="b" d="M33.234 1.187c.002-.074-.022-.124-.111-.127h-2.942l-.08.027-.027.08v.53c0 .08.027.106.106.106h1.088v2.624l.027.08.08.027h.557c.08 0 .106-.027.106-.106v-2.624h1.089c.08 0 .106-.023.107-.102l.004-.168z"/>
+      <path class="b" d="M12.982 1.138l-.08.053-.264.742-.027.105-.158.477-.213.609-.398 1.113-.053.158-.047.139h.705l.096-.061c.053-.185.15-.422.229-.607l.053-.053h1.643l.053.053.107.293.105.291.105.08h.637v-.027l-.184-.557c-.106-.292-.213-.582-.293-.873-.212-.636-.423-1.246-.662-1.855l-.107-.08zm.506.689h.266l.025.025.293.85.158.477h-1.248v-.025l.055-.135.291-.82.08-.213.027-.053z"/>
+      <path class="b" d="M23.396 1.138l-.08.053-.264.742-.027.105-.16.477-.211.609-.398 1.113-.053.158-.051.139h.756l.064-.084c.053-.185.134-.399.213-.584l.053-.053h1.643l.053.053.107.293.105.291.105.08h.637v-.027l-.184-.557c-.106-.292-.213-.582-.293-.873-.212-.636-.423-1.246-.662-1.855l-.107-.08zm.506.689h.266l.025.025.293.85.158.477h-1.248v-.025l.053-.135.293-.82.08-.213.027-.053z"/>
+      <path class="b" d="M29.679 1.22c0-.106-.027-.106-.106-.106h-.61v2.359l-1.881-2.305-.106-.053h-.557c-.106 0-.106.027-.106.106v3.207c0 .106.027.106.106.106h.503c.106 0 .106-.027.106-.106v-2.173l1.802 2.2c.053.053.106.08.159.08h.583c.106 0 .106-.027.106-.106v-1.961z"/>
+    </svg>
+  </div>
+
+  <!-- ScrollDown -->
+  <div class="sct__content container">
+    <div class="scrolldown sct-main-screen__scrolldown"></div>
+  </div>
+
+</section>
+<!-- Section : MainScreen : End -->
+
+
+<!-- Section : AboutProduct : Start -->
+<section class="sct sct-about-product bg-primary">
+
+  <div class="sct__grid ln-t">
+    <div class="container h-100 ln-y">
+      <div class="row h-100">
+        <div class="col-4 d-none d-lg-block"></div>
+        <div class="col-4 d-none d-lg-block ln-y"></div>
+        <div class="col-4 d-none d-lg-block bg-primary-dark"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sct__content container">
+    <div class="row justify-content-center">
+      <!-- FirstColumn -->
+      <div class="col-lg-4 col-xxxl-3 offset-xxxl-1 mt-5 px-0 ln-b ln-b_fluid ln-b-md-none">
+
+        <div class="d-flex flex-column px-gut h-100" data-decoPlus="bottom right">
+          <div>
+
+            <!-- Header -->
+            <h2 class="title-double m-0 mb-5" data-title="Что ты такое?" data-aos="fade-right">Что ты такое?</h2>
+
+          </div>
+          <div class="mb-6" data-aos="fade-up" data-aos-delay="0">
+
+            <!-- Content -->
+            <p class="m-0">ЭкзоАтлант — российская компания, занимающаяся разработкой и производством промышленных экзоскелетов.</p>
+            <p class="paragraph-accent">История проекта началась в 2011 году, когда ученые из НИИ механики МГУ выиграли тендер МЧС на создание экзоскелета для аварийно-спасательных задач</p>
+            <div class="main-about-descr" data-mrc='{"shadow":true,"height":75}' data-mrc-disaled-up="1440" data-mrc-open-down="991">
+              <p>В течение двух лет команда робототехников под руководством Елены Письменной занималась разработкой пассивного и активного экзоскелетов. В 2013 году было решено делать экзоскелет для медицинских целей, к проекту присоединились Михаил Крундышев (на данный момент генеральный директор компании) и Екатерина Березий (директор по развитию бизнеса).</p>
+            </div>
+
+          </div>
+          <div class="d-flex flex-grow-1 align-items-end mb-5 mb-lg-0">
+
+            <!-- Stat -->
+            <div class="main-about-stat d-flex align-items-center w-100">
+              <div class="row justify-content-center flex-grow-1">
+                <div class="col-4 stat-box" data-aos="zoom-in-down" data-aos-delay="100">
+                  <div class="stat-box__num lazyload" data-counter data-expand="0">99</div>
+                  <div class="stat-box__text">Чиво<br> нибудь</div>
                 </div>
-
+                <div class="col-4 stat-box" data-aos="zoom-in-down" data-aos-delay="300">
+                  <div class="stat-box__num lazyload" data-counter data-expand="0">999</div>
+                  <div class="stat-box__text">Чиво<br> нибудь</div>
+                </div>
+                <div class="col-4 stat-box" data-aos="zoom-in-down" data-aos-delay="400">
+                  <div class="stat-box__num lazyload" data-counter data-expand="0">99</div>
+                  <div class="stat-box__text">Чиво<br> нибудь</div>
+                </div>
               </div>
             </div>
 
-            <!-- PlayButton -->
-            <a data-fancybox href="https://www.youtube.com/watch?v=w3tHfk1kPHs" class="btn-play text-white text-right sct-main-screen__btn-play">
-              <span class="btn-play__text">Play video</span>
-              <span class="btn-play__circle">
-                <span class="btn-play__icon">
-                  <i class="aif-play"></i>
-                </span>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
-                  <defs>
-                    <mask id="mask-path" x="0" y="0">
-                      <polygon points="0,0 120,0 120,120 0,120" fill="url(#rg)" />
-                      <linearGradient id="rg">
-                        <stop offset="0%" style="stop-color: #fff; stop-opacity: 0" />
-                        <stop offset="75%" style="stop-color: #fff; stop-opacity: 1" />
-                      </linearGradient>
-                    </mask>
-                  </defs>
-                  <circle mask="url(#mask-path)" cx="60" cy="60" r="54.285" />
-                </svg>
+          </div>
+        </div>
+
+      </div>
+      <!-- SecondColumn -->
+      <div class="col-md-8 col-lg-4 mt-5 ln-b ln-b_fluid ln-b-md-none">
+
+        <div class="d-flex flex-column h-100">
+          <div>
+
+            <div class="scheme-box ratio-box">
+              <!-- <img class="scheme-box__grid img-contain lazyload" data-src="../svg/grid.svg" src="svg/lazy.svg" alt="grid"> -->
+              <svg class="scheme-box__grid" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 417.8 417.8">
+                <path d="M.25.25h417.3v417.3h-417.3zM51.65.25v417.3M104.25.25v417.3M156.95.25v417.3m52.7-417.3v417.3m52.6-417.3v417.3m52.7-417.3v417.3m52.7-417.3v417.3M.25 367.55h417.4m-417.4-52.7h417.4m-417.4-52.6h417.4m-417.4-52.7h417.4m-417.4-52.7h417.4m-417.4-52.6h417.4m-417.4-52.7h417.4" style="fill:none;stroke:#fff;stroke-width:.5;stroke-miterlimit:10"/>
+                <path d="M51.65 47.45v8.2m-4.1-4.1h8.2M104.25 47.45v8.2m-4.1-4.1h8.2M156.95 47.45v8.2m-4.1-4.1h8.2M209.65 47.45v8.2m-4.1-4.1h8.2M262.25 47.45v8.2m-4.1-4.1h8.2M314.95 47.45v8.2m-4.1-4.1h8.2M367.65 47.45v8.2m-4.1-4.1h8.2M51.65 100.15v8.2m-4.1-4.1h8.2M104.25 100.15v8.2m-4.1-4.1h8.2M156.95 100.15v8.2m-4.1-4.1h8.2M209.65 100.15v8.2m-4.1-4.1h8.2M262.25 100.15v8.2m-4.1-4.1h8.2M314.95 100.15v8.2m-4.1-4.1h8.2M367.65 100.15v8.2m-4.1-4.1h8.2M51.65 152.75v8.2m-4.1-4.1h8.2M104.25 152.75v8.2m-4.1-4.1h8.2M156.95 152.75v8.2m-4.1-4.1h8.2M209.65 152.75v8.2m-4.1-4.1h8.2M262.25 152.75v8.2m-4.1-4.1h8.2M314.95 152.75v8.2m-4.1-4.1h8.2M367.65 152.75v8.2m-4.1-4.1h8.2M51.65 205.45v8.2m-4.1-4.1h8.2M104.25 205.45v8.2m-4.1-4.1h8.2M156.95 205.45v8.2m-4.1-4.1h8.2M209.65 205.45v8.2m-4.1-4.1h8.2M262.25 205.45v8.2m-4.1-4.1h8.2M314.95 205.45v8.2m-4.1-4.1h8.2M367.65 205.45v8.2m-4.1-4.1h8.2M51.65 258.15v8.2m-4.1-4.1h8.2M104.25 258.15v8.2m-4.1-4.1h8.2M156.95 258.15v8.2m-4.1-4.1h8.2M209.65 258.15v8.2m-4.1-4.1h8.2M262.25 258.15v8.2m-4.1-4.1h8.2M314.95 258.15v8.2m-4.1-4.1h8.2M367.65 258.15v8.2m-4.1-4.1h8.2M51.65 310.75v8.2m-4.1-4.1h8.2M104.25 310.75v8.2m-4.1-4.1h8.2M156.95 310.75v8.2m-4.1-4.1h8.2M209.65 310.75v8.2m-4.1-4.1h8.2M262.25 310.75v8.2m-4.1-4.1h8.2M314.95 310.75v8.2m-4.1-4.1h8.2M367.65 310.75v8.2m-4.1-4.1h8.2M51.65 363.45v8.2m-4.1-4.1h8.2M104.25 363.45v8.2m-4.1-4.1h8.2M156.95 363.45v8.2m-4.1-4.1h8.2M209.65 363.45v8.2m-4.1-4.1h8.2M262.25 363.45v8.2m-4.1-4.1h8.2M314.95 363.45v8.2m-4.1-4.1h8.2M367.65 363.45v8.2m-4.1-4.1h8.2" style="stroke-width:1.5;fill:none;stroke:#fff;stroke-miterlimit:10"/>
+              </svg>
+
+              <div class="scheme-box__img-container ratio-box" data-aos="fade-up" data-aos-delay="350">
+                <img data-lazyload class="scheme-box__img img-contain lazyload" data-lazyload-no-anim data-src="../img/cheme-01.png" src="svg/lazy.svg" alt="grid">
+                <img data-lazyload class="scheme-box__img img-contain lazyload" data-lazyload-no-anim data-src="../img/cheme-02.png" src="svg/lazy.svg" alt="grid">
+              </div>
+            </div>
+
+          </div>
+          <div class="d-flex flex-grow-1 align-items-end">
+
+            <div class="d-flex w-100 text-center dots-sheet sct-about-product__dots-sheet" style="min-height:175px"><!-- TODO: remove style -->
+              <img class="sct-about-product__logo-outline lazyload" data-src="../svg/logo-text-solid-outline.svg" src="svg/lazy.svg" alt="img">
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <!-- ThirdColumn -->
+      <div class="col-lg-4 mt-3 mt-lg-5 d-flex flex-column justify-content-between">
+
+        <div class="slider-revolver" data-aos="fade-up" data-aos-delay="450">
+
+          <div class="slider-revolver__wrapper">
+            <div class="slider-revolver__slide">
+             <span>
+                Менее <span class="is-accent">5кг</span><br>
+                вес экзоскелета
+             </span>
+            </div>
+            <div class="slider-revolver__slide">
+              <span>
+                Не требует<br>
+                подзарядки
               </span>
-            </a>
-
-          </div>
-        </div>
-
-        <!-- BackgroundText -->
-        <div class="sct-main-screen__logo-bg">
-          <!-- <img class="d-none d-sm-block" src="../svg/logo-text-outline.svg" alt="logo"> -->
-          <!-- <img class="d-block d-sm-none" src="../svg/logo-text-exo-outline.svg" alt="logo"> -->
-          <svg class="d-block d-sm-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.51 4.55">
-            <style>
-              .a {
-                stroke: #fff;
-                stroke-width: .003;
-                fill: none
-              }
-            </style>
-            <path class="a" d="M11.507 3.021l.002-1.176-.049-.116-.357-.349-.265-.265-.106-.053h-1.908l-.106.053-.265.265-.345.345-.027.106v1.935l.053.106.609.609.126.057h1.9l.122-.057.583-.583.036-.106-.002-.771zm-2.683.56l-.027-.027v-1.458l.027-.053.08-.08.133-.106.053-.027h1.378l.053.027.212.212.027.053v1.458l-.027.053-.212.212-.027.027h-1.378l-.027-.027-.265-.265z" />
-            <path class="a" d="M4.196 4.537l.096-.091c.159-.265.341-.549.526-.814l.451-.742.106-.053h.477l.106.053c.159.265.318.53.477.822.159.265.318.503.451.768l.084.057h.871l-.027-.031-.212-.345c-.318-.53-.636-1.06-.954-1.617v-.133l1.113-1.855.053-.106.027-.027h-.848l-.106.053-.503.848-.424.716-.106.053h-.451l-.106-.08c-.159-.265-.318-.557-.503-.822l-.451-.742-.08-.053h-.849l.027.053.106.185 1.06 1.749v.133c-.345.583-.689 1.166-1.034 1.723l-.133.212-.062.086zm1.734-4.535h-.636c-.08 0-.133.053-.133.133v.477c0 .08.053.133.133.133h.636c.08 0 .133-.053.133-.133v-.477c0-.08-.053-.133-.133-.133z" />
-            <path class="a" d="M.744 3.244h2.254l.08-.027.027-.08v-.531l-.027-.08-.053-.027h-2.254v-.663h2.28l.053-.027.027-.08v-.504c0-.08-.027-.106-.106-.106h-2.916c-.08 0-.106.027-.106.106v3.313h3.022l.053-.027.027-.08v-.504c0-.08-.027-.106-.106-.106h-2.227v-.451l-.027-.133z" />
-          </svg>
-          <svg class="d-none d-sm-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.23 4.54">
-            <style>
-              .b {
-                stroke: #fff;
-                stroke-width: .0025;
-                fill: none;
-              }
-            </style>
-            <path class="b" d="M11.504 3.018l.002-1.176-.049-.116-.357-.349-.265-.265-.106-.053h-1.908l-.106.053-.265.265-.345.345-.027.106v1.935l.053.106.609.609.126.057h1.9l.122-.057.583-.583.036-.106-.002-.771zm-2.683.56l-.027-.027v-1.458l.027-.053.08-.08.133-.106.053-.027h1.378l.053.027.212.212.027.053v1.458l-.027.053-.212.212-.027.027h-1.378l-.027-.027-.265-.265z" />
-            <path class="b" d="M4.457 4.535l.096-.091c.159-.265.341-.549.526-.814l.451-.742.106-.053h.477l.106.053c.159.265.318.53.477.822.159.265.318.503.451.768l.084.057h.871l-.027-.031-.212-.345c-.318-.53-.636-1.06-.954-1.617v-.133l1.113-1.855.053-.106.027-.027h-.848l-.106.053-.503.848-.424.716-.106.053h-.451l-.106-.08c-.159-.265-.318-.557-.503-.822l-.451-.742-.08-.053h-.849l.027.053.106.185 1.06 1.749v.133c-.345.583-.689 1.166-1.034 1.723l-.133.212-.062.086zm1.734-4.535h-.636c-.08 0-.133.053-.133.133v.477c0 .08.053.133.133.133h.636c.08 0 .133-.053.133-.133v-.477c0-.08-.053-.133-.133-.133z" />
-            <path class="b" d="M.741 3.241h2.254l.08-.027.027-.08v-.531l-.027-.08-.053-.027h-2.254v-.663h2.28l.053-.027.027-.08v-.504c0-.08-.027-.106-.106-.106h-2.916c-.08 0-.106.027-.106.106v3.313h3.022l.053-.027.027-.08v-.504c0-.08-.027-.106-.106-.106h-2.227v-.451l-.027-.133z" />
-            <path class="b" d="M21.941 4.058v-.133c0-.08-.027-.106-.106-.106h-2.253v-2.677l-.027-.053-.08-.027h-.531c-.106 0-.106.027-.106.106v3.26l.027.08.053.027h2.915l.08-.027.027-.08v-.371z" />
-            <path class="b" d="M18.364 1.168l-.027-.08-.08-.027h-2.942l-.08.027-.027.08v.53c0 .08.027.106.106.106h1.088v2.624l.027.08.08.027h.557c.08 0 .106-.027.106-.106v-2.624h1.089c.08 0 .08-.027.08-.106v-.159c.027-.133.027-.265.027-.371z" />
-            <path class="b" d="M33.234 1.187c.002-.074-.022-.124-.111-.127h-2.942l-.08.027-.027.08v.53c0 .08.027.106.106.106h1.088v2.624l.027.08.08.027h.557c.08 0 .106-.027.106-.106v-2.624h1.089c.08 0 .106-.023.107-.102l.004-.168z" />
-            <path class="b" d="M12.982 1.138l-.08.053-.264.742-.027.105-.158.477-.213.609-.398 1.113-.053.158-.047.139h.705l.096-.061c.053-.185.15-.422.229-.607l.053-.053h1.643l.053.053.107.293.105.291.105.08h.637v-.027l-.184-.557c-.106-.292-.213-.582-.293-.873-.212-.636-.423-1.246-.662-1.855l-.107-.08zm.506.689h.266l.025.025.293.85.158.477h-1.248v-.025l.055-.135.291-.82.08-.213.027-.053z" />
-            <path class="b" d="M23.396 1.138l-.08.053-.264.742-.027.105-.16.477-.211.609-.398 1.113-.053.158-.051.139h.756l.064-.084c.053-.185.134-.399.213-.584l.053-.053h1.643l.053.053.107.293.105.291.105.08h.637v-.027l-.184-.557c-.106-.292-.213-.582-.293-.873-.212-.636-.423-1.246-.662-1.855l-.107-.08zm.506.689h.266l.025.025.293.85.158.477h-1.248v-.025l.053-.135.293-.82.08-.213.027-.053z" />
-            <path class="b" d="M29.679 1.22c0-.106-.027-.106-.106-.106h-.61v2.359l-1.881-2.305-.106-.053h-.557c-.106 0-.106.027-.106.106v3.207c0 .106.027.106.106.106h.503c.106 0 .106-.027.106-.106v-2.173l1.802 2.2c.053.053.106.08.159.08h.583c.106 0 .106-.027.106-.106v-1.961z" />
-          </svg>
-        </div>
-
-        <!-- ScrollDown -->
-        <div class="sct__content container">
-          <div class="scrolldown sct-main-screen__scrolldown"></div>
-        </div>
-
-      </section>
-      <!-- Section : MainScreen : End -->
-
-
-      <!-- Section : AboutProduct : Start -->
-      <section class="sct sct-about-product bg-primary">
-
-        <div class="sct__grid ln-t">
-          <div class="container h-100 ln-y">
-            <div class="row h-100">
-              <div class="col-4 d-none d-lg-block"></div>
-              <div class="col-4 d-none d-lg-block ln-y"></div>
-              <div class="col-4 d-none d-lg-block bg-primary-dark"></div>
             </div>
-          </div>
-        </div>
-
-        <div class="sct__content container">
-          <div class="row justify-content-center">
-            <!-- FirstColumn -->
-            <div class="col-lg-4 col-xxxl-3 offset-xxxl-1 mt-5 px-0 ln-b ln-b_fluid ln-b-md-none">
-
-              <div class="d-flex flex-column px-gut h-100" data-decoPlus="bottom right">
-                <div>
-
-                  <!-- Header -->
-                  <h2 class="title-double m-0 mb-5" data-title="Что ты такое?" data-aos="fade-right">Что ты такое?</h2>
-
-                </div>
-                <div class="mb-6" data-aos="fade-up" data-aos-delay="0">
-
-                  <!-- Content -->
-                  <p class="m-0">ЭкзоАтлант — российская компания, занимающаяся разработкой и производством промышленных экзоскелетов.</p>
-                  <p class="paragraph-accent">История проекта началась в 2011 году, когда ученые из НИИ механики МГУ выиграли тендер МЧС на создание экзоскелета для аварийно-спасательных задач</p>
-                  <div class="main-about-descr" data-mrc='{"shadow":true,"height":75}' data-mrc-disaled-up="1440" data-mrc-open-down="991">
-                    <p>В течение двух лет команда робототехников под руководством Елены Письменной занималась разработкой пассивного и активного экзоскелетов. В 2013 году было решено делать экзоскелет для медицинских целей, к проекту присоединились Михаил Крундышев (на данный момент генеральный директор компании) и Екатерина Березий (директор по развитию бизнеса).</p>
-                  </div>
-
-                </div>
-                <div class="d-flex flex-grow-1 align-items-end mb-5 mb-lg-0">
-
-                  <!-- Stat -->
-                  <div class="main-about-stat d-flex align-items-center w-100">
-                    <div class="row justify-content-center flex-grow-1">
-                      <div class="col-4 stat-box" data-aos="zoom-in-down" data-aos-delay="100">
-                        <div class="stat-box__num lazyload" data-counter data-expand="0">99</div>
-                        <div class="stat-box__text">Чиво<br> нибудь</div>
-                      </div>
-                      <div class="col-4 stat-box" data-aos="zoom-in-down" data-aos-delay="300">
-                        <div class="stat-box__num lazyload" data-counter data-expand="0">999</div>
-                        <div class="stat-box__text">Чиво<br> нибудь</div>
-                      </div>
-                      <div class="col-4 stat-box" data-aos="zoom-in-down" data-aos-delay="400">
-                        <div class="stat-box__num lazyload" data-counter data-expand="0">99</div>
-                        <div class="stat-box__text">Чиво<br> нибудь</div>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-
+            <div class="slider-revolver__slide">
+              <span>
+                До <span class="is-accent">40%</span> разгрузка<br>
+                позвоночника
+              </span>
             </div>
-            <!-- SecondColumn -->
-            <div class="col-md-8 col-lg-4 mt-5 ln-b ln-b_fluid ln-b-md-none">
-
-              <div class="d-flex flex-column h-100">
-                <div>
-
-                  <div class="scheme-box ratio-box">
-                    <!-- <img class="scheme-box__grid img-contain lazyload" data-src="../svg/grid.svg" src="svg/lazy.svg" alt="grid"> -->
-                    <svg class="scheme-box__grid" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 417.8 417.8">
-                      <path d="M.25.25h417.3v417.3h-417.3zM51.65.25v417.3M104.25.25v417.3M156.95.25v417.3m52.7-417.3v417.3m52.6-417.3v417.3m52.7-417.3v417.3m52.7-417.3v417.3M.25 367.55h417.4m-417.4-52.7h417.4m-417.4-52.6h417.4m-417.4-52.7h417.4m-417.4-52.7h417.4m-417.4-52.6h417.4m-417.4-52.7h417.4" style="fill:none;stroke:#fff;stroke-width:.5;stroke-miterlimit:10" />
-                      <path d="M51.65 47.45v8.2m-4.1-4.1h8.2M104.25 47.45v8.2m-4.1-4.1h8.2M156.95 47.45v8.2m-4.1-4.1h8.2M209.65 47.45v8.2m-4.1-4.1h8.2M262.25 47.45v8.2m-4.1-4.1h8.2M314.95 47.45v8.2m-4.1-4.1h8.2M367.65 47.45v8.2m-4.1-4.1h8.2M51.65 100.15v8.2m-4.1-4.1h8.2M104.25 100.15v8.2m-4.1-4.1h8.2M156.95 100.15v8.2m-4.1-4.1h8.2M209.65 100.15v8.2m-4.1-4.1h8.2M262.25 100.15v8.2m-4.1-4.1h8.2M314.95 100.15v8.2m-4.1-4.1h8.2M367.65 100.15v8.2m-4.1-4.1h8.2M51.65 152.75v8.2m-4.1-4.1h8.2M104.25 152.75v8.2m-4.1-4.1h8.2M156.95 152.75v8.2m-4.1-4.1h8.2M209.65 152.75v8.2m-4.1-4.1h8.2M262.25 152.75v8.2m-4.1-4.1h8.2M314.95 152.75v8.2m-4.1-4.1h8.2M367.65 152.75v8.2m-4.1-4.1h8.2M51.65 205.45v8.2m-4.1-4.1h8.2M104.25 205.45v8.2m-4.1-4.1h8.2M156.95 205.45v8.2m-4.1-4.1h8.2M209.65 205.45v8.2m-4.1-4.1h8.2M262.25 205.45v8.2m-4.1-4.1h8.2M314.95 205.45v8.2m-4.1-4.1h8.2M367.65 205.45v8.2m-4.1-4.1h8.2M51.65 258.15v8.2m-4.1-4.1h8.2M104.25 258.15v8.2m-4.1-4.1h8.2M156.95 258.15v8.2m-4.1-4.1h8.2M209.65 258.15v8.2m-4.1-4.1h8.2M262.25 258.15v8.2m-4.1-4.1h8.2M314.95 258.15v8.2m-4.1-4.1h8.2M367.65 258.15v8.2m-4.1-4.1h8.2M51.65 310.75v8.2m-4.1-4.1h8.2M104.25 310.75v8.2m-4.1-4.1h8.2M156.95 310.75v8.2m-4.1-4.1h8.2M209.65 310.75v8.2m-4.1-4.1h8.2M262.25 310.75v8.2m-4.1-4.1h8.2M314.95 310.75v8.2m-4.1-4.1h8.2M367.65 310.75v8.2m-4.1-4.1h8.2M51.65 363.45v8.2m-4.1-4.1h8.2M104.25 363.45v8.2m-4.1-4.1h8.2M156.95 363.45v8.2m-4.1-4.1h8.2M209.65 363.45v8.2m-4.1-4.1h8.2M262.25 363.45v8.2m-4.1-4.1h8.2M314.95 363.45v8.2m-4.1-4.1h8.2M367.65 363.45v8.2m-4.1-4.1h8.2" style="stroke-width:1.5;fill:none;stroke:#fff;stroke-miterlimit:10" />
-                    </svg>
-
-                    <div class="scheme-box__img-container ratio-box" data-aos="fade-up" data-aos-delay="350">
-                      <img data-lazyload class="scheme-box__img img-contain lazyload" data-lazyload-no-anim data-src="../img/cheme-01.png" src="svg/lazy.svg" alt="grid">
-                      <img data-lazyload class="scheme-box__img img-contain lazyload" data-lazyload-no-anim data-src="../img/cheme-02.png" src="svg/lazy.svg" alt="grid">
-                    </div>
-                  </div>
-
-                </div>
-                <div class="d-flex flex-grow-1 align-items-end">
-
-                  <div class="d-flex w-100 text-center dots-sheet sct-about-product__dots-sheet" style="min-height:175px">
-                    <!-- TODO: remove style -->
-                    <img class="sct-about-product__logo-outline lazyload" data-src="../svg/logo-text-solid-outline.svg" src="svg/lazy.svg" alt="img">
-                  </div>
-
-                </div>
-              </div>
-
+            <div class="slider-revolver__slide">
+              <span>
+                Электронный<br>
+                модуль телеметрии
+              </span>
             </div>
-            <!-- ThirdColumn -->
-            <div class="col-lg-4 mt-3 mt-lg-5 d-flex flex-column justify-content-between">
-
-              <div class="slider-revolver" data-aos="fade-up" data-aos-delay="450">
-
-                <div class="slider-revolver__wrapper">
-                  <div class="slider-revolver__slide">
-                    <span>
-                      Менее <span class="is-accent">5кг</span><br>
-                      вес экзоскелета
-                    </span>
-                  </div>
-                  <div class="slider-revolver__slide">
-                    <span>
-                      Не требует<br>
-                      подзарядки
-                    </span>
-                  </div>
-                  <div class="slider-revolver__slide">
-                    <span>
-                      До <span class="is-accent">40%</span> разгрузка<br>
-                      позвоночника
-                    </span>
-                  </div>
-                  <div class="slider-revolver__slide">
-                    <span>
-                      Электронный<br>
-                      модуль телеметрии
-                    </span>
-                  </div>
-                  <div class="slider-revolver__slide">
-                    <span>
-                      Выдержит более<br>
-                      <span class="is-accent">1000000</span> сгибаний
-                    </span>
-                  </div>
-                </div>
-
-              </div>
-
-              <div class="signature-separated text-center mt-4" data-aos="fade-left" data-aos-delay="0">По данным исселедований НИИ МТ</div>
-
+            <div class="slider-revolver__slide">
+              <span>
+                Выдержит более<br>
+                <span class="is-accent">1000000</span> сгибаний
+              </span>
             </div>
           </div>
 
-          <!-- DecoNumb -->
-          <div class="sct-about-product__deco-nums">000001121201</div>
         </div>
 
-      </section>
-      <!-- Section : AboutProduct : End -->
+        <div class="signature-separated text-center mt-4" data-aos="fade-left" data-aos-delay="0">По данным исселедований НИИ МТ</div>
+
+      </div>
+    </div>
+
+    <!-- DecoNumb -->
+    <div class="sct-about-product__deco-nums">000001121201</div>
+  </div>
+
+</section>
+<!-- Section : AboutProduct : End -->
 
 
 
-      <!-- Section : Demo : Start -->
-      <section class="sct sct-demo bg-primary pt-6 pb-7">
+<!-- Section : Demo : Start -->
+<section class="sct sct-demo bg-primary pt-6 pb-7">
 
-        <div class="sct__grid ln-t">
-          <div class="container h-100 ln-y">
-            <div class="row h-100">
-              <div class="col-4 d-none d-lg-block bg-primary-dark"></div>
-              <div class="col-4 d-none d-lg-block ln-y"></div>
-              <div class="col-4 d-none d-lg-block bg-primary-dark"></div>
-            </div>
-          </div>
-        </div>
+  <div class="sct__grid ln-t">
+    <div class="container h-100 ln-y">
+      <div class="row h-100">
+        <div class="col-4 d-none d-lg-block bg-primary-dark"></div>
+        <div class="col-4 d-none d-lg-block ln-y"></div>
+        <div class="col-4 d-none d-lg-block bg-primary-dark"></div>
+      </div>
+    </div>
+  </div>
 
-        <div class="sct__content container">
-          <div class="row justify-content-center">
-            <div class="col-lg-10 px-sm-0 px-lg-gut">
+  <div class="sct__content container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 px-sm-0 px-lg-gut">
 
-              <!-- SliderDemo -->
-              <div class="slider-demos owl-carousel lazyload" data-slider-default data-owl='{
+        <!-- SliderDemo -->
+        <div class="slider-demos owl-carousel lazyload" data-slider-default data-owl='{
           "items": 3,
           "margin": 60,
           "responsive": {
@@ -389,92 +375,92 @@
           }
         }'>
 
-                <div class="slider-demos__slide">
-
-                  <div class="demo-box" data-aos="fade-up" data-aos-delay="0">
-                    <div class="demo-box__img ratio-box">
-                      <img class="demo-box__img-main img-contain owl-lazy" data-preloader data-src="../img/demo/demo-1.png" src="../svg/lazy.svg" alt="action">
-                      <img class="demo-box__img-silhouette img-contain owl-lazy" data-src="../img/demo/demo-1_silhouette.png" src="../svg/lazy.svg" alt="silhouette">
-                      <img class="demo-box__img-bg img-contain owl-lazy" data-src="../svg/grille.svg" src="../svg/lazy.svg" alt="background">
-                    </div>
-                    <h3 class="demo-box__title mt-3 mb-0">для погрузочно-<br>разгрузочных<br> работ</h3>
-                    <div class="demo-box__sign">_dpg_01</div>
-                  </div>
-
-                </div>
-
-                <div class="slider-demos__slide">
-
-                  <div class="demo-box" data-aos="fade-up" data-aos-delay="100">
-                    <div class="demo-box__img ratio-box">
-                      <img class="demo-box__img-main img-contain owl-lazy" data-preloader data-src="../img/demo/demo-2.png" src="../svg/lazy.svg" alt="action">
-                      <img class="demo-box__img-silhouette img-contain owl-lazy" data-src="../img/demo/demo-2_silhouette.png" src="../svg/lazy.svg" alt="silhouette">
-                      <img class="demo-box__img-bg img-contain owl-lazy" data-src="../svg/grille.svg" src="../svg/lazy.svg" alt="background">
-                    </div>
-                    <h3 class="demo-box__title mt-3 mb-0">в логистических<br> углах</h3>
-                    <div class="demo-box__sign">_dpg_02</div>
-                  </div>
-
-                </div>
-
-                <div class="slider-demos__slide">
-
-                  <div class="demo-box" data-aos="fade-up" data-aos-delay="200">
-                    <div class="demo-box__img ratio-box">
-                      <img class="demo-box__img-main img-contain owl-lazy" data-preloader data-src="../img/demo/demo-3.png" src="../svg/lazy.svg" alt="action">
-                      <img class="demo-box__img-silhouette img-contain owl-lazy" data-src="../img/demo/demo-3_silhouette.png" src="../svg/lazy.svg" alt="silhouette">
-                      <img class="demo-box__img-bg img-contain owl-lazy" data-src="../svg/grille.svg" src="../svg/lazy.svg" alt="background">
-                    </div>
-                    <h3 class="demo-box__title mt-3 mb-0">для сгибов<br> и разгибов</h3>
-                    <div class="demo-box__sign">_dpg_03</div>
-                  </div>
-
-                </div>
-
+          <div class="slider-demos__slide">
+            
+            <div class="demo-box" data-aos="fade-up" data-aos-delay="0">
+              <div class="demo-box__img ratio-box">
+                <img class="demo-box__img-main img-contain owl-lazy" data-preloader data-src="../img/demo/demo-1.png" src="../svg/lazy.svg" alt="action">
+                <img class="demo-box__img-silhouette img-contain owl-lazy" data-src="../img/demo/demo-1_silhouette.png" src="../svg/lazy.svg" alt="silhouette">
+                <img class="demo-box__img-bg img-contain owl-lazy" data-src="../svg/grille.svg" src="../svg/lazy.svg" alt="background">
               </div>
-
+              <h3 class="demo-box__title mt-3 mb-0">для погрузочно-<br>разгрузочных<br> работ</h3>
+              <div class="demo-box__sign">_dpg_01</div>
             </div>
+
           </div>
+
+          <div class="slider-demos__slide">
+            
+            <div class="demo-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="demo-box__img ratio-box">
+                <img class="demo-box__img-main img-contain owl-lazy" data-preloader data-src="../img/demo/demo-2.png" src="../svg/lazy.svg" alt="action">
+                <img class="demo-box__img-silhouette img-contain owl-lazy" data-src="../img/demo/demo-2_silhouette.png" src="../svg/lazy.svg" alt="silhouette">
+                <img class="demo-box__img-bg img-contain owl-lazy" data-src="../svg/grille.svg" src="../svg/lazy.svg" alt="background">
+              </div>
+              <h3 class="demo-box__title mt-3 mb-0">в логистических<br> углах</h3>
+              <div class="demo-box__sign">_dpg_02</div>
+            </div>
+
+          </div>
+
+          <div class="slider-demos__slide">
+            
+            <div class="demo-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="demo-box__img ratio-box">
+                <img class="demo-box__img-main img-contain owl-lazy" data-preloader data-src="../img/demo/demo-3.png" src="../svg/lazy.svg" alt="action">
+                <img class="demo-box__img-silhouette img-contain owl-lazy" data-src="../img/demo/demo-3_silhouette.png" src="../svg/lazy.svg" alt="silhouette">
+                <img class="demo-box__img-bg img-contain owl-lazy" data-src="../svg/grille.svg" src="../svg/lazy.svg" alt="background">
+              </div>
+              <h3 class="demo-box__title mt-3 mb-0">для сгибов<br> и разгибов</h3>
+              <div class="demo-box__sign">_dpg_03</div>
+            </div>
+
+          </div>
+          
         </div>
 
-      </section>
-      <!-- Section : Demo : End -->
+      </div>
+    </div>
+  </div>
+
+</section>
+<!-- Section : Demo : End -->
 
 
 
-      <!-- Section : LastNews : Start -->
-      <section class="sct sct-last-news bg-primary">
+<!-- Section : LastNews : Start -->
+<section class="sct sct-last-news bg-primary">
 
-        <div class="sct__grid ln-t">
-          <div class="container h-100 ln-y">
-            <div class="row h-100">
-              <div class="col-4 d-none d-lg-block bg-primary-dark"></div>
-              <div class="col-4 d-none d-lg-block ln-y"></div>
-              <div class="col-4 d-none d-lg-block bg-primary-dark"></div>
-            </div>
+  <div class="sct__grid ln-t">
+    <div class="container h-100 ln-y">
+      <div class="row h-100">
+        <div class="col-4 d-none d-lg-block bg-primary-dark"></div>
+        <div class="col-4 d-none d-lg-block ln-y"></div>
+        <div class="col-4 d-none d-lg-block bg-primary-dark"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sct__content container py-6" data-decoPlus="top right">
+    <div class="row justify-content-center">
+
+      <!-- NewsTitle -->
+      <div class="col-lg-10">
+        <div class="row mb-6">
+          <div class="col-auto">
+            <h2 class="title-double m-0" data-title="Последние новости" data-aos="fade-right">Последние новости</h2>
+          </div>
+          <div class="col-sm-10 col-xl-6 mt-4 mt-xxxl-2"  data-aos="fade-up">
+            <p class="m-0">Легкий промышленный экзоскелет, позволяющий снизить нагрузку на позвоночник при подъеме и переносе груза, избежать радикулопатии и уменьшить процент инвалидизации</p>
           </div>
         </div>
+      </div>
 
-        <div class="sct__content container py-6" data-decoPlus="top right">
-          <div class="row justify-content-center">
+      <!-- NewsCards -->
+      <div class="col-lg-10 px-sm-0">
 
-            <!-- NewsTitle -->
-            <div class="col-lg-10">
-              <div class="row mb-6">
-                <div class="col-auto">
-                  <h2 class="title-double m-0" data-title="Последние новости" data-aos="fade-right">Последние новости</h2>
-                </div>
-                <div class="col-sm-10 col-xl-6 mt-4 mt-xxxl-2" data-aos="fade-up">
-                  <p class="m-0">Легкий промышленный экзоскелет, позволяющий снизить нагрузку на позвоночник при подъеме и переносе груза, избежать радикулопатии и уменьшить процент инвалидизации</p>
-                </div>
-              </div>
-            </div>
-
-            <!-- NewsCards -->
-            <div class="col-lg-10 px-sm-0">
-
-              <div class="pos-relative">
-                <div class="slider-cards owl-carousel lazyload" data-slider-default data-owl='{
+        <div class="pos-relative">
+          <div class="slider-cards owl-carousel lazyload" data-slider-default data-owl='{
             "items": 4,
             "margin": 30,
             "autoWidth": false,
@@ -494,272 +480,366 @@
               "1280": {}
             }
           }'>
-
-                  <article class="card-article" data-aos="fade-up" data-aos-delay="0">
-                    <div class="card-article__cover">
-                      <img class="img-cover owl-lazy" data-preloader data-src="../img/bg-news-card-example.jpg" src="../svg/lazy.svg" alt="cover">
-                    </div>
-                    <header class="card-article__header">
-                      <time class="card-article__date" datetime="2020-02-01 19:00">
-                        <span class="d-block">2020</span>
-                        <span class="d-block">01 / 02</span>
-                      </time>
-                      <h3 class="card-article__title">Выставка <span class="text-accent">этнотехно эксп</span></h3>
-                      <div class="card-article__link-wrap">
-                        <a class="card-article__link" href="/news-single.html">
-                          Читать статью
-                        </a>
-                      </div>
-                    </header>
-                    <div class="card-article__meta-left">
-                      <a class="text-xxs text-decoration-none" href="javascript:void(0)">tileset.ru</a>
-                    </div>
-                    <div hidden class="card-article__meta-right">
-                      ...
-                    </div>
-                  </article>
-
-                  <article class="card-article" data-aos="fade-up" data-aos-delay="200">
-                    <div class="card-article__cover">
-                      <img class="img-cover owl-lazy" data-preloader data-src="../img/bg-news-card-example.jpg" src="../svg/lazy.svg" alt="cover">
-                    </div>
-                    <header class="card-article__header">
-                      <time class="card-article__date" datetime="2020-02-01 19:00">
-                        <span class="d-block">2020</span>
-                        <span class="d-block">01 / 02</span>
-                      </time>
-                      <h3 class="card-article__title">Наука вау <span class="text-accent">технологии</span> бла бла бла бла</h3>
-                      <div class="card-article__link-wrap">
-                        <a class="card-article__link" href="/news-single.html">
-                          Читать статью
-                        </a>
-                      </div>
-                    </header>
-                    <div class="card-article__meta-left">
-                      <a class="text-xxs text-decoration-none" href="javascript:void(0)">tileset.ru</a>
-                    </div>
-                    <div hidden class="card-article__meta-right">
-                      ...
-                    </div>
-                  </article>
-
-                  <article class="card-article" data-aos="fade-up" data-aos-delay="300">
-                    <div class="card-article__cover">
-                      <img class="img-cover owl-lazy" data-preloader data-src="../img/bg-news-card-example.jpg" src="../svg/lazy.svg" alt="cover">
-                    </div>
-                    <header class="card-article__header">
-                      <time class="card-article__date" datetime="2020-02-01 19:00">
-                        <span class="d-block">2020</span>
-                        <span class="d-block">01 / 02</span>
-                      </time>
-                      <h3 class="card-article__title">Интервью <span class="text-accent">с нашей</span> главной</h3>
-                      <div class="card-article__link-wrap">
-                        <a class="card-article__link" href="/news-single.html">
-                          Читать статью
-                        </a>
-                      </div>
-                    </header>
-                    <div class="card-article__meta-left">
-                      <a class="text-xxs text-decoration-none" href="javascript:void(0)">tileset.ru</a>
-                    </div>
-                    <div hidden class="card-article__meta-right">
-                      ...
-                    </div>
-                  </article>
-
-                  <article class="card-article" data-aos="fade-up" data-aos-delay="400">
-                    <div class="card-article__cover">
-                      <img class="img-cover owl-lazy" data-preloader data-src="../img/bg-news-card-example.jpg" src="../svg/lazy.svg" alt="cover">
-                    </div>
-                    <header class="card-article__header">
-                      <time class="card-article__date" datetime="2020-02-01 19:00">
-                        <span class="d-block">2020</span>
-                        <span class="d-block">01 / 02</span>
-                      </time>
-                      <h3 class="card-article__title">звезды <span class="text-accent">на сцене</span></h3>
-                      <div class="card-article__link-wrap">
-                        <a class="card-article__link" href="/news-single.html">
-                          Читать статью
-                        </a>
-                      </div>
-                    </header>
-                    <div class="card-article__meta-left">
-                      <a class="text-xxs text-decoration-none" href="javascript:void(0)">tileset.ru</a>
-                    </div>
-                    <div hidden class="card-article__meta-right">
-                      ...
-                    </div>
-                  </article>
-
+  
+              <article class="card-article" data-aos="fade-up" data-aos-delay="0">
+                <div class="card-article__cover">
+                  <img class="img-cover owl-lazy" data-preloader data-src="../img/bg-news-card-example.jpg" src="../svg/lazy.svg" alt="cover">
                 </div>
-                <!-- DecoExo -->
-                <img class="sct-last-news__deco-exo lazyload" data-src="../svg/logo-text-exo-outline.svg" src="../svg/lazy.svg" data-lazyload-no-anim alt="exo">
-              </div>
-              <div class="mt-4 text-right">
-                <a class="link-solid" href="/news.html">Все новости</a>
-              </div>
-            </div>
+                <header class="card-article__header">
+                  <time class="card-article__date" datetime="2020-02-01 19:00">
+                    <span class="d-block">2020</span>  
+                    <span class="d-block">01 / 02</span>
+                  </time>
+                  <h3 class="card-article__title">Выставка <span class="text-accent">этнотехно эксп</span></h3>
+                  <div class="card-article__link-wrap">
+                    <a class="card-article__link" href="/news-single.html">
+                      Читать статью
+                    </a>
+                  </div>
+                </header>
+                <div class="card-article__meta-left">
+                  <a class="text-xxs text-decoration-none" href="javascript:void(0)">tileset.ru</a>
+                </div>
+                <div hidden class="card-article__meta-right">
+                  ...
+                </div>
+              </article>
+  
+              <article class="card-article" data-aos="fade-up" data-aos-delay="200">
+                <div class="card-article__cover">
+                  <img class="img-cover owl-lazy" data-preloader data-src="../img/bg-news-card-example.jpg" src="../svg/lazy.svg" alt="cover">
+                </div>
+                <header class="card-article__header">
+                  <time class="card-article__date" datetime="2020-02-01 19:00">
+                    <span class="d-block">2020</span>
+                    <span class="d-block">01 / 02</span>
+                  </time>
+                  <h3 class="card-article__title">Наука вау <span class="text-accent">технологии</span> бла бла бла бла</h3>
+                  <div class="card-article__link-wrap">
+                    <a class="card-article__link" href="/news-single.html">
+                      Читать статью
+                    </a>
+                  </div>
+                </header>
+                <div class="card-article__meta-left">
+                  <a class="text-xxs text-decoration-none" href="javascript:void(0)">tileset.ru</a>
+                </div>
+                <div hidden class="card-article__meta-right">
+                  ...
+                </div>
+              </article>
+  
+              <article class="card-article" data-aos="fade-up" data-aos-delay="300">
+                <div class="card-article__cover">
+                  <img class="img-cover owl-lazy" data-preloader data-src="../img/bg-news-card-example.jpg" src="../svg/lazy.svg" alt="cover">
+                </div>
+                <header class="card-article__header">
+                  <time class="card-article__date" datetime="2020-02-01 19:00">
+                    <span class="d-block">2020</span>  
+                    <span class="d-block">01 / 02</span>
+                  </time>
+                  <h3 class="card-article__title">Интервью <span class="text-accent">с нашей</span> главной</h3>
+                  <div class="card-article__link-wrap">
+                    <a class="card-article__link" href="/news-single.html">
+                      Читать статью
+                    </a>
+                  </div>
+                </header>
+                <div class="card-article__meta-left">
+                  <a class="text-xxs text-decoration-none" href="javascript:void(0)">tileset.ru</a>
+                </div>
+                <div hidden class="card-article__meta-right">
+                  ...
+                </div>
+              </article>
+  
+              <article class="card-article" data-aos="fade-up" data-aos-delay="400">
+                <div class="card-article__cover">
+                  <img class="img-cover owl-lazy" data-preloader data-src="../img/bg-news-card-example.jpg" src="../svg/lazy.svg" alt="cover">
+                </div>
+                <header class="card-article__header">
+                  <time class="card-article__date" datetime="2020-02-01 19:00">
+                    <span class="d-block">2020</span>  
+                    <span class="d-block">01 / 02</span>
+                  </time>
+                  <h3 class="card-article__title">звезды <span class="text-accent">на сцене</span></h3>
+                  <div class="card-article__link-wrap">
+                    <a class="card-article__link" href="/news-single.html">
+                      Читать статью
+                    </a>
+                  </div>
+                </header>
+                <div class="card-article__meta-left">
+                  <a class="text-xxs text-decoration-none" href="javascript:void(0)">tileset.ru</a>
+                </div>
+                <div hidden class="card-article__meta-right">
+                  ...
+                </div>
+              </article>
+  
+          </div>
+          <!-- DecoExo -->
+          <img class="sct-last-news__deco-exo lazyload" data-src="../svg/logo-text-exo-outline.svg" src="../svg/lazy.svg" data-lazyload-no-anim alt="exo">
+        </div>
+        <div class="mt-4 text-right">
+          <a class="link-solid" href="/news.html">Все новости</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+<!-- Section : LastNews : End -->
+
+
+
+<!-- Section : Subscribe : Start -->
+<section class="sct sct-subscribe bg-primary-light">
+
+  <div class="sct__grid ln-t">
+    <div class="container h-100 ln-y">
+      <div class="row h-100">
+        <div class="col-4 d-none d-lg-block"></div>
+        <div class="col-4 d-none d-lg-block ln-y"></div>
+        <div class="col-4 d-none d-lg-block"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sct__content container py-6" data-decoPlus="top left">
+    <div class="sct-subscribe__content">
+
+      <h2 class="title-1 sct-subscribe__title text-transform-none text-center mb-4 mb-md-3"  data-aos="fade-up" data-aos-delay="0">
+        <span class="text-accent">Подпишись</span> на рассылку
+      </h2>
+
+      <form class="form-subscribe">
+        <div class="sct-subscribe__form-wrapper">
+          <div class="sct-subscribe__textfield mr-2 mb-3 mb-md-0" data-aos="fade-up" data-aos-delay="150">
+            <input data-input-animated class="form-input form-input_wide" type="text" placeholder="Ваш e-mail" tabindex="1">
+          </div>
+          <div class="sct-subscribe__submit mb-3 mb-md-0" data-aos="zoom-in-up" data-aos-delay="200">
+            <button tabindex="2" class="btn btn_wide btn_stroke-anim form-subscribe__submit-btn" type="submit" onclick="return false">
+              Подписаться
+            </button>
           </div>
         </div>
-
-      </section>
-      <!-- Section : LastNews : End -->
-
-
-
-      <!-- Section : Subscribe : Start -->
-      <section class="sct sct-subscribe bg-primary-light">
-
-        <div class="sct__grid ln-t">
-          <div class="container h-100 ln-y">
-            <div class="row h-100">
-              <div class="col-4 d-none d-lg-block"></div>
-              <div class="col-4 d-none d-lg-block ln-y"></div>
-              <div class="col-4 d-none d-lg-block"></div>
-            </div>
+        <div class="row">
+          <div class="form-subscribe__sign-left col-sm mt-3" data-aos="zoom-in-up" data-aos-delay="150">
+            <p class="text-sm text-white m-0">Наш робот рассылки обещает не спамить.</p>
+          </div>
+          <div class="form-subscribe__sign-right col-sm mt-3" data-aos="zoom-in-up" data-aos-delay="300">
+            <p class="text-xxs text-white opacity-50 m-0">Подписываясь на рассылку, вы соглашаетесь
+              с <a href="javascript:void(0)">правилами использования</a>
+              и <a href="javascript:void(0)">прочими бумажками</a>,
+              которые придумали кожаные мешки непонятно зачем.</p>
           </div>
         </div>
+      </form>
 
-        <div class="sct__content container py-6" data-decoPlus="top left">
-          <div class="sct-subscribe__content">
+    </div>
+    <!-- DecoDots -->
+    <div class="deco-dots sct-subscribe__deco-dots"></div>
+    <!-- DecoBarcode -->
+    <svg class="sct-subscribe__deco-barcode" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285.7 101.4">
+      <path d="M18 .2h12.7v100.7c-1.9.4-4 .1-6.1.2h-6.6v-100.9zM159.7 78.6h-9.7v-78.4c1.4 0 3-.1 4.6-.1h5.1v78.5zM180.7 78.5h-9.6v-78.4h9.6v78.4zM126 .1h9.7v78.4c-1.4 0-3 .1-4.6.1h-5.1v-78.5zM51.7 101h-9.7v-100.7c1.4-.1 3-.1 4.6-.2h5.1v100.9zM261 .2h9.7v100.7c-1.4.1-3 .1-4.6.2h-5.1v-100.9zM93.7 78.6h-6.7v-78.4h6.7v78.4zM60 .1h6.7v78.3h-6.7v-78.3zM5.9 100.9v-100.6h3.5c.7 4.3 1 82.9.3 100.6h-3.8zM12 .2h3.7v100.7c-1 .1-2.2.1-3.7.2v-100.9zM35.9 100.9v-100.6h3.6c.5.5.8 84.3.2 100.6h-3.8zM69 .1h3.7v78.4c-1 0-2.3.1-3.7.2v-78.6zM78 .1h3.7v78.3c-1 0-2.3.1-3.7.2v-78.5zM102 .1h3.7v78.3c-1 0-2.3.1-3.7.2v-78.5zM114.7 78.6h-3.7v-78.4c1.1 0 2.3-.1 3.7-.2v78.6zM123.7 78.5h-3.6v-78.4h3.6v78.4zM138 .1h3.7v78.3c-1 .1-2.2.1-3.7.2v-78.5zM143.8.1h3.8v78.5h-2c-1.1 0-2 0-1.8-1.2.1-.5 0-1 0-1.6v-75.7zM165 .1h3.7v78.4c-1.1 0-2.3.1-3.7.2v-78.6zM186 .1h3.7v78.3c-1 .1-2.3.1-3.7.2v-78.5zM192 .1h3.7v78.4c-1 0-2.3.1-3.7.2v-78.6zM204 .1h3.7v78.4c-1 0-2.3.1-3.7.2v-78.6zM216.7 78.6h-3.7v-78.3c1 0 2.3-.1 3.7-.2v78.5zM225.7 78.6h-3.7v-78.4c1 0 2.3-.1 3.7-.2v78.6zM237.7 78.6h-3.7v-78.4c1 0 2.3-.1 3.7-.2v78.6zM249.7 101h-3.7v-100.7c1.1-.1 2.3-.1 3.7-.2v100.9zM255 .2h3.7v100.7c-1 .1-2.3.1-3.7.2v-100.9zM0 .2h3.7v100.7c-1 .1-2.2.1-3.7.2v-100.9zM276 .2h3.7v100.7c-1 .1-2.3.1-3.7.2v-100.9zM285.7 101h-3.7v-100.7c1-.1 2.3-.1 3.7-.2v100.9zM60.8 101.1v-14h13v2.4h-9.7v3.4h8.7v2.4h-8.7v3.5h9.8v2.4h-13.1zM83 87.1l4.1 5.2 4.1-5.2h3.9l-5.7 6.9 6.2 7.2h-3.9l-4.6-5.4-4.6 5.4h-3.9l6.2-7.2-5.8-6.9zM99.6 93.5c0-1 .2-1.9.5-2.7.3-.8.9-1.5 1.6-2.1.7-.6 1.6-1.1 2.6-1.4 1.1-.3 2.3-.5 3.8-.5s2.7.2 3.8.5c1.1.3 1.9.8 2.6 1.4.7.6 1.2 1.3 1.6 2.1.3.8.5 1.7.5 2.7v1.2c0 1-.2 1.8-.5 2.7-.3.8-.9 1.5-1.6 2.1-.7.6-1.6 1.1-2.6 1.4-1 .3-2.3.5-3.8.5-1.4 0-2.7-.2-3.8-.5-1.1-.3-1.9-.8-2.6-1.4-.7-.6-1.2-1.3-1.6-2.1-.3-.8-.5-1.7-.5-2.7zm8.5 5.5c.8 0 1.4-.1 2.1-.3.7-.2 1.2-.5 1.6-.8.4-.4.8-.8 1-1.3.2-.5.4-1.1.4-1.8v-1.4c0-.7-.1-1.3-.4-1.8-.2-.5-.6-1-1-1.3-.4-.4-1-.6-1.6-.8-.6-.2-1.3-.3-2.1-.3s-1.4.1-2.1.3c-.7.2-1.2.5-1.6.8-.4.4-.8.8-1 1.3-.2.5-.4 1.1-.4 1.8v1.4c0 .7.1 1.3.4 1.8.2.5.6 1 1 1.3.4.4 1 .6 1.6.8.6.2 1.3.3 2.1.3zM120.7 101.1l6.6-14h4.3l6.6 14h-3.5l-1.4-3.3h-7.8l-1.4 3.3zm5.9-5.6h5.8l-2.7-6.1h-.4zM149.4 89.5v11.7h-3.3v-11.7h-5.8v-2.4h15v2.4zM160.9 101.1v-14h3.4v11.7h8.7v2.4h-12.1zM177.5 101.1l6.6-14h4.3l6.6 14h-3.5l-1.4-3.3h-7.8l-1.4 3.3zm5.9-5.6h5.8l-2.7-6.1h-.4zM212.7 101.1l-8.8-10.1h-.1l.1.9v9.2h-3.2v-14h3.3l8.9 10.3h.1l-.1-.8v-9.5h3.2v14zM231 89.5v11.7h-3.3v-11.7h-5.8v-2.4h15v2.4z"/>
+    </svg>
+  </div>
 
-            <h2 class="title-1 sct-subscribe__title text-transform-none text-center mb-4 mb-md-3" data-aos="fade-up" data-aos-delay="0">
-              <span class="text-accent">Подпишись</span> на рассылку
-            </h2>
-
-            <form class="form-subscribe">
-              <div class="sct-subscribe__form-wrapper">
-                <div class="sct-subscribe__textfield mr-2 mb-3 mb-md-0" data-aos="fade-up" data-aos-delay="150">
-                  <input data-input-animated class="form-input form-input_wide" type="text" placeholder="Ваш e-mail" tabindex="1">
-                </div>
-                <div class="sct-subscribe__submit mb-3 mb-md-0" data-aos="zoom-in-up" data-aos-delay="200">
-                  <button tabindex="2" class="btn btn_wide btn_stroke-anim form-subscribe__submit-btn" type="submit" onclick="return false">
-                    Подписаться
-                  </button>
-                </div>
-              </div>
-              <div class="row">
-                <div class="form-subscribe__sign-left col-sm mt-3" data-aos="zoom-in-up" data-aos-delay="150">
-                  <p class="text-sm text-white m-0">Наш робот рассылки обещает не спамить.</p>
-                </div>
-                <div class="form-subscribe__sign-right col-sm mt-3" data-aos="zoom-in-up" data-aos-delay="300">
-                  <p class="text-xxs text-white opacity-50 m-0">Подписываясь на рассылку, вы соглашаетесь
-                    с <a href="javascript:void(0)">правилами использования</a>
-                    и <a href="javascript:void(0)">прочими бумажками</a>,
-                    которые придумали кожаные мешки непонятно зачем.</p>
-                </div>
-              </div>
-            </form>
-
-          </div>
-          <!-- DecoDots -->
-          <div class="deco-dots sct-subscribe__deco-dots"></div>
-          <!-- DecoBarcode -->
-          <svg class="sct-subscribe__deco-barcode" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285.7 101.4">
-            <path d="M18 .2h12.7v100.7c-1.9.4-4 .1-6.1.2h-6.6v-100.9zM159.7 78.6h-9.7v-78.4c1.4 0 3-.1 4.6-.1h5.1v78.5zM180.7 78.5h-9.6v-78.4h9.6v78.4zM126 .1h9.7v78.4c-1.4 0-3 .1-4.6.1h-5.1v-78.5zM51.7 101h-9.7v-100.7c1.4-.1 3-.1 4.6-.2h5.1v100.9zM261 .2h9.7v100.7c-1.4.1-3 .1-4.6.2h-5.1v-100.9zM93.7 78.6h-6.7v-78.4h6.7v78.4zM60 .1h6.7v78.3h-6.7v-78.3zM5.9 100.9v-100.6h3.5c.7 4.3 1 82.9.3 100.6h-3.8zM12 .2h3.7v100.7c-1 .1-2.2.1-3.7.2v-100.9zM35.9 100.9v-100.6h3.6c.5.5.8 84.3.2 100.6h-3.8zM69 .1h3.7v78.4c-1 0-2.3.1-3.7.2v-78.6zM78 .1h3.7v78.3c-1 0-2.3.1-3.7.2v-78.5zM102 .1h3.7v78.3c-1 0-2.3.1-3.7.2v-78.5zM114.7 78.6h-3.7v-78.4c1.1 0 2.3-.1 3.7-.2v78.6zM123.7 78.5h-3.6v-78.4h3.6v78.4zM138 .1h3.7v78.3c-1 .1-2.2.1-3.7.2v-78.5zM143.8.1h3.8v78.5h-2c-1.1 0-2 0-1.8-1.2.1-.5 0-1 0-1.6v-75.7zM165 .1h3.7v78.4c-1.1 0-2.3.1-3.7.2v-78.6zM186 .1h3.7v78.3c-1 .1-2.3.1-3.7.2v-78.5zM192 .1h3.7v78.4c-1 0-2.3.1-3.7.2v-78.6zM204 .1h3.7v78.4c-1 0-2.3.1-3.7.2v-78.6zM216.7 78.6h-3.7v-78.3c1 0 2.3-.1 3.7-.2v78.5zM225.7 78.6h-3.7v-78.4c1 0 2.3-.1 3.7-.2v78.6zM237.7 78.6h-3.7v-78.4c1 0 2.3-.1 3.7-.2v78.6zM249.7 101h-3.7v-100.7c1.1-.1 2.3-.1 3.7-.2v100.9zM255 .2h3.7v100.7c-1 .1-2.3.1-3.7.2v-100.9zM0 .2h3.7v100.7c-1 .1-2.2.1-3.7.2v-100.9zM276 .2h3.7v100.7c-1 .1-2.3.1-3.7.2v-100.9zM285.7 101h-3.7v-100.7c1-.1 2.3-.1 3.7-.2v100.9zM60.8 101.1v-14h13v2.4h-9.7v3.4h8.7v2.4h-8.7v3.5h9.8v2.4h-13.1zM83 87.1l4.1 5.2 4.1-5.2h3.9l-5.7 6.9 6.2 7.2h-3.9l-4.6-5.4-4.6 5.4h-3.9l6.2-7.2-5.8-6.9zM99.6 93.5c0-1 .2-1.9.5-2.7.3-.8.9-1.5 1.6-2.1.7-.6 1.6-1.1 2.6-1.4 1.1-.3 2.3-.5 3.8-.5s2.7.2 3.8.5c1.1.3 1.9.8 2.6 1.4.7.6 1.2 1.3 1.6 2.1.3.8.5 1.7.5 2.7v1.2c0 1-.2 1.8-.5 2.7-.3.8-.9 1.5-1.6 2.1-.7.6-1.6 1.1-2.6 1.4-1 .3-2.3.5-3.8.5-1.4 0-2.7-.2-3.8-.5-1.1-.3-1.9-.8-2.6-1.4-.7-.6-1.2-1.3-1.6-2.1-.3-.8-.5-1.7-.5-2.7zm8.5 5.5c.8 0 1.4-.1 2.1-.3.7-.2 1.2-.5 1.6-.8.4-.4.8-.8 1-1.3.2-.5.4-1.1.4-1.8v-1.4c0-.7-.1-1.3-.4-1.8-.2-.5-.6-1-1-1.3-.4-.4-1-.6-1.6-.8-.6-.2-1.3-.3-2.1-.3s-1.4.1-2.1.3c-.7.2-1.2.5-1.6.8-.4.4-.8.8-1 1.3-.2.5-.4 1.1-.4 1.8v1.4c0 .7.1 1.3.4 1.8.2.5.6 1 1 1.3.4.4 1 .6 1.6.8.6.2 1.3.3 2.1.3zM120.7 101.1l6.6-14h4.3l6.6 14h-3.5l-1.4-3.3h-7.8l-1.4 3.3zm5.9-5.6h5.8l-2.7-6.1h-.4zM149.4 89.5v11.7h-3.3v-11.7h-5.8v-2.4h15v2.4zM160.9 101.1v-14h3.4v11.7h8.7v2.4h-12.1zM177.5 101.1l6.6-14h4.3l6.6 14h-3.5l-1.4-3.3h-7.8l-1.4 3.3zm5.9-5.6h5.8l-2.7-6.1h-.4zM212.7 101.1l-8.8-10.1h-.1l.1.9v9.2h-3.2v-14h3.3l8.9 10.3h.1l-.1-.8v-9.5h3.2v14zM231 89.5v11.7h-3.3v-11.7h-5.8v-2.4h15v2.4z" />
-          </svg>
-        </div>
-
-      </section>
-      <!-- Section : Subscribe : End -->
+</section>
+<!-- Section : Subscribe : End -->
     </main>
     <!-- AppPage : End -->
 
     <!-- AppFooter : Start -->
     <footer class="sct app-footer">
 
-      <!-- Grid -->
-      <div class="sct__grid ln-t">
-        <div class="container h-100 ln-y">
-          <div class="row h-100">
-            <div class="col-4 d-none d-lg-block"></div>
-            <div class="col-4 d-none d-lg-block ln-y"></div>
-            <div class="col-4 d-none d-lg-block"></div>
+  <!-- Grid -->
+  <div class="sct__grid ln-t">
+    <div class="container h-100 ln-y">
+      <div class="row h-100">
+        <div class="col-4 d-none d-lg-block"></div>
+        <div class="col-4 d-none d-lg-block ln-y"></div>
+        <div class="col-4 d-none d-lg-block"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MainFooter -->
+  <div class="sct__content container">
+    <div class="row pb-5 pos-relative">
+      <!-- 1 -->
+      <div class="col-md-5 col-lg-4 mb-5 mb-xl-0 pl-sm-0">
+
+        <a href="/" class="logo-main-full mb-3">
+          <img class="logo-main-full__img lazyload" data-src="../svg/logo-full.svg" src="svg/lazy.svg" alt="logo">
+        </a>
+        <p class="m-0 text-xs">
+          It was some time before he obtained<br>
+          any answer, and the reply, when made,<br>
+          was unpropitious.
+        </p>
+
+      </div>
+      <!-- 2 -->
+      <div class="col-md-7 col-lg-4 pl-sm-0 flex-grow-1">
+        <div class="row">
+          <div class="col-sm-5 mb-5 mb-lg-0">
+
+            <div class="title-4 app-footer__title font-weight-book mb-4 pb-3">Exoatlant</div>
+            <nav class="menu-vertical app-footer__menu-vertical">
+              <ul class="menu-vertical__list list-empty">
+                <li><a href="/">Главная</a></li>
+                <li><a href="/about">О компании</a></li>
+                <li><a href="/news">Новости</a></li>
+                <li><a href="/contacts">Контакты</a></li>
+              </ul>
+            </nav>
+
+          </div>
+          <div class="col-sm-7 mb-5 mb-lg-0">
+
+            <div class="title-4 app-footer__title font-weight-book mb-4 pb-2">Для связи</div>
+            <address class="address-box app-footer__address-box">
+
+              <div class="icon-box my-3">
+                <div class="icon-box__icon">
+                  <i class="aif-map-marker-alt"></i>
+                </div>
+                <div class="icon-box__text">
+                  г. Москва, 1-й Труженников переулок, дом 15, офис&nbsp;1
+                </div>
+              </div>
+
+              <div class="icon-box my-3">
+                <div class="icon-box__icon">
+                  <i class="aif-phone"></i>
+                </div>
+                <div class="icon-box__text">
+                  <a class="text-nowrap" href="tel:+74953748530">+7 495 374-85-30</a>
+                </div>
+              </div>
+
+              <div class="icon-box my-3">
+                <div class="icon-box__icon">
+                  <i class="aif-envelope"></i>
+                </div>
+                <div class="icon-box__text">
+                  <a class="text-nowrap" href="mailto:info@exoatlant.ru">info@exoatlant.ru</a>
+                </div>
+              </div>
+
+            </address>
+
           </div>
         </div>
       </div>
+      <!-- 3 -->
+      <div class="col-md-12 col-lg-4 col-xxl-4 pl-sm-0">
 
-      <!-- MainFooter -->
-      <div class="sct__content container">
-        <div class="row pb-5 pos-relative">
-          <!-- 1 -->
-          <div class="col-md-5 col-lg-4 mb-5 mb-xl-0 pl-sm-0">
+        <ul class="partners-list list-empty">
+          <li class="mb-4 mr-4">
+            <img class="lazyload" data-src="../svg/logo-exoatlet.svg" src="../svg/lazy.svg" alt="logo">
+          </li>
+          <li class="mb-4 mr-4">
+            <img class="lazyload" data-src="../svg/logo-skolkovo.svg" src="../svg/lazy.svg" alt="logo">
+          </li>
+        </ul>
+        <p class="m-0 text-xs">Исследования осуществляются при<br> грантовой поддержке Фонда «Сколково»</p>
 
-            <a href="/" class="logo-main-full mb-3">
-              <img class="logo-main-full__img lazyload" data-src="../svg/logo-full.svg" src="svg/lazy.svg" alt="logo">
+      </div>
+    </div>
+  </div>
+
+  <!-- SubFooter -->
+  <div class="sct__content">
+
+    <!-- Grid -->
+    <div class="sct__grid ln-t ln-t_fluid"></div>
+
+    <!-- Content -->
+    <div class="container">
+      <div class="row pt-4 pb-5">
+        <div class="col-lg-4 pl-sm-0">
+          <p class="m-0 text-xs">© 2020 ExoAtlet. ExoAtlant. All rights reserved <a href="javascript:void(0)">Политика Конфеденциальности</a></p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+    <!-- AppFooter : End -->
+
+  </div>
+
+  <!-- AppDrawer : Start -->
+  <aside class="drawer-main d-flex flex-column justify-content-between" data-drawer="mobile-menu">
+  <div class="drawer-main__header">
+    <div class="sct app-header z-1">
+      <div class="container px-sm-0">
+        <div class="row align-items-center">
+          <div class="col-auto">
+
+            <a class="logo-main app-header__logo-main mr-3" href="javascript:void(0)">
+              <!-- <img class="logo-main__img" src="svg/logo-mini.svg" alt="logo"> -->
+              <svg class="logo-main__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 53">
+                <path fill="#ed4555" d="M53 26.5a26.5 26.5 0 0 1-26.5 26.5 26.5 26.5 0 0 1-26.5-26.5 26.5 26.5 0 0 1 26.5-26.5 26.5 26.5 0 0 1 26.5 26.5z" />
+              </svg>
             </a>
-            <p class="m-0 text-xs">
-              It was some time before he obtained<br>
-              any answer, and the reply, when made,<br>
-              was unpropitious.
-            </p>
 
           </div>
-          <!-- 2 -->
-          <div class="col-md-7 col-lg-4 pl-sm-0 flex-grow-1">
-            <div class="row">
-              <div class="col-sm-5 mb-5 mb-lg-0">
+          <div class="col-auto flex-grow-1 text-right">
 
-                <div class="title-4 app-footer__title font-weight-book mb-4 pb-3">Exoatlant</div>
-                <nav class="menu-vertical app-footer__menu-vertical">
-                  <ul class="menu-vertical__list list-empty">
-                    <li><a href="/">Главная</a></li>
-                    <li><a href="/about">О компании</a></li>
-                    <li><a href="/news">Новости</a></li>
-                    <li><a href="/contacts">Контакты</a></li>
-                  </ul>
-                </nav>
+            <button class="hamburger hamburger--emphatic app-header__hamburger" data-drawerToggle="mobile-menu">
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </button>
 
-              </div>
-              <div class="col-sm-7 mb-5 mb-lg-0">
-
-                <div class="title-4 app-footer__title font-weight-book mb-4 pb-2">Для связи</div>
-                <address class="address-box app-footer__address-box">
-
-                  <div class="icon-box my-3">
-                    <div class="icon-box__icon">
-                      <i class="aif-map-marker-alt"></i>
-                    </div>
-                    <div class="icon-box__text">
-                      г. Москва, 1-й Труженников переулок, дом 15, офис&nbsp;1
-                    </div>
-                  </div>
-
-                  <div class="icon-box my-3">
-                    <div class="icon-box__icon">
-                      <i class="aif-phone"></i>
-                    </div>
-                    <div class="icon-box__text">
-                      <a class="text-nowrap" href="tel:+74953748530">+7 495 374-85-30</a>
-                    </div>
-                  </div>
-
-                  <div class="icon-box my-3">
-                    <div class="icon-box__icon">
-                      <i class="aif-envelope"></i>
-                    </div>
-                    <div class="icon-box__text">
-                      <a class="text-nowrap" href="mailto:info@exoatlant.ru">info@exoatlant.ru</a>
-                    </div>
-                  </div>
-
-                </address>
-
-              </div>
-            </div>
           </div>
-          <!-- 3 -->
-          <div class="col-md-12 col-lg-4 col-xxl-4 pl-sm-0">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="drawer-main__content">
+    <div class="sct">
+      <div class="container px-sm-0 text-right">
 
-            <ul class="partners-list list-empty">
-              <li class="mb-4 mr-4">
-                <img class="lazyload" data-src="../svg/logo-exoatlet.svg" src="../svg/lazy.svg" alt="logo">
-              </li>
-              <li class="mb-4 mr-4">
-                <img class="lazyload" data-src="../svg/logo-skolkovo.svg" src="../svg/lazy.svg" alt="logo">
-              </li>
-            </ul>
-            <p class="m-0 text-xs">Исследования осуществляются при<br> грантовой поддержке Фонда «Сколково»</p>
+        <nav class="menu-main-vertical drawer-main__menu-main-vertical">
+          <ul class="menu-main-vertical__list list-empty">
+            <li><a href="/">Главная</a></li>
+            <li><a href="/about.html">О компании</a></li>
+            <li><a href="/news.html">Новости</a></li>
+            <li><a href="/contacts.html">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <nav class="menu-lang menu-lang_collapsed drawer-main__menu-lang d-flex justify-content-end my-6">
+          <ul class="menu-lang__list list-empty">
+            <li class="current-lang"><a href="javascript:void(0)">ru</a></li>
+            <li><a href="javascript:void(0)">en</a></li>
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+  </div>
+  <div class="drawer-main__footer">
+
+  </div>
+</aside>
+  <!-- AppDrawer : End -->
+
+  <div id="top-button"></div>
+
+  <script>window.lazySizesConfig={init:!1}</script>
+  <!-- build:js -->
+  <script src="js/vendors~app.min.js"></script>
+  <script src="js/app.js"></script>
+  <!-- endbuild -->
+</body>
+</html>class="m-0 text-xs">Исследования осуществляются при<br> грантовой поддержке Фонда «Сколково»</p>
 
           </div>
         </div>
